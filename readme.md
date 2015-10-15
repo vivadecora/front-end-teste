@@ -1,6 +1,6 @@
 # Teste para candidatos à vaga de desenvolvedor Front-end
 
-> ![Logo Viva Decora](https://cdn.rawgit.com/vivadecora/front-end-teste/master/vivadecora-logo.png)
+> [![Logo Viva Decora](https://cdn.rawgit.com/vivadecora/front-end-teste/master/vivadecora-logo.png)](https://www.vivadecora.com.br)
 >
 > Esse teste é público. Todos que os interessados que fizerem pull request receberão um feedback da equipe Viva Decora.
 
