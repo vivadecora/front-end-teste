@@ -1,0 +1,1 @@
+git remote add origin git@github.com:vivadecora/front-end-teste.git
