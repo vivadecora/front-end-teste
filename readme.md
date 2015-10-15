@@ -1,5 +1,7 @@
 # Teste para candidatos à vaga de desenvolvedor Front-end
 
+> ![Logo Viva Decora](https://cdn.rawgit.com/vivadecora/front-end-teste/master/vivadecora-logo.png)
+>
 > Esse teste é público. Todos que os interessados que fizerem pull request receberão um feedback da equipe Viva Decora.
 
 ## Instruções:
@@ -10,9 +12,8 @@
 3. Para a interação do formulário você pode utilizar javascript puro, angularjs e/ou jQuery;
 4. Após terminar seu teste submeta um pull request e aguarde seu feedback.
 
-**Importante:** O formulário de cadastro não deve fazer requisições para nenhuma url.
-
-**Importante:** A url da página não pode ser recarregada em momento algum.
+* **Importante:** O formulário de cadastro não deve fazer requisições para nenhuma url.
+* **Importante:** A url da página não pode ser recarregada em momento algum.
 
 ### Você pode:
 
