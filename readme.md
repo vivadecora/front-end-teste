@@ -1,10 +1,10 @@
 # Teste para candidatos à vaga de desenvolvedor Front-end
 
-[![GitHub forks](https://img.shields.io/github/forks/badges/shields.svg?style=social&label=Fork)]()
-
 > [![Logo Viva Decora](https://cdn.rawgit.com/vivadecora/front-end-teste/master/vivadecora-logo.png)](https://www.vivadecora.com.br)
 >
 > Esse teste é público. Todos que os interessados que fizerem pull request receberão um feedback da equipe Viva Decora.
+
+> ![Estamos contratando front end](https://img.shields.io/badge/Atenção:-Estamos%20contratando-green.svg?style=flat-square)
 
 ## Instruções:
 
