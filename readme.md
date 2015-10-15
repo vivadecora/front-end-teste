@@ -12,7 +12,7 @@
 
 **Importante:** O formulário de cadastro não deve fazer requisições para nenhuma url.
 
-**Importante:** A url não pode ser recarregada em momento algum.
+**Importante:** A url da página não pode ser recarregada em momento algum.
 
 ### Você pode:
 
