@@ -1,12 +1,14 @@
 # Teste para candidatos à vaga de desenvolvedor Front-end
 
+[![GitHub forks](https://img.shields.io/github/forks/badges/shields.svg?style=social&label=Fork)]()
+
 > [![Logo Viva Decora](https://cdn.rawgit.com/vivadecora/front-end-teste/master/vivadecora-logo.png)](https://www.vivadecora.com.br)
 >
 > Esse teste é público. Todos que os interessados que fizerem pull request receberão um feedback da equipe Viva Decora.
 
 ## Instruções:
 
-1. [Faça um fork deste repositório](#fork-destination-box);
+1. Faça um fork deste repositório;
 2. Implemente o HTML/CSS da tela com base no layout disponível;
 3. Preocupe-se em desenvolver o css utilizando mobile first;
 4. Para a interação do formulário utilize preferencialmente angularjs e/ou jQuery;
@@ -55,7 +57,7 @@
 * Todos os layouts necessários estão disponíveis no [zeplin, projeto front-end-teste](https://zpl.io/17r9kd)
 * Fonte de ícones em [/material/font](/material/font)
 
-### Para visualizar o [projeto front-end-teste no zeplin]((https://zpl.io/17r9kd):
+### Para visualizar o [projeto front-end-teste no zeplin](https://zpl.io/17r9kd):
 1. Acesse [https://zpl.io/17r9kd](https://zpl.io/17r9kd).
 2. Logue-se com o usuário: **vivadecorateste**, senha: **vivadecorateste**.
 3. Navegue entre os designs pelo menu esquerdo, baixe imagens do design no menu "Assets" do lado direito.
@@ -65,4 +67,4 @@
 Para iniciar o teste, faça um fork deste repositório, crie uma branch com o seu nome e depois envie-nos o pull request.
 Se você apenas clonar o repositório não vai conseguir fazer push e depois vai ser mais complicado fazer o pull request.
 
-**[Boa sorte!](#fork-destination-box)**
+**Boa sorte!**
