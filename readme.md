@@ -9,7 +9,7 @@
 0. Faça um fork deste repositório;
 1. Implemente o HTML/CSS da tela com base no layout disponível;
 2. Preocupe-se em desenvolver o css utilizando mobile first;
-3. Para a interação do formulário você pode utilizar javascript puro, angularjs e/ou jQuery;
+3. Para a interação do formulário utilize preferencialmente angularjs e/ou jQuery;
 4. Após terminar seu teste submeta um pull request e aguarde seu feedback.
 
 * **Importante:** O formulário de cadastro não deve fazer requisições para nenhuma url.
@@ -55,7 +55,7 @@
 
 ## Submissão
 
-Para iniciar o teste, faça um fork deste repositório, crie uma branch com o seu nome e depois envie-nos o pull request. 
+Para iniciar o teste, faça um fork deste repositório, crie uma branch com o seu nome e depois envie-nos o pull request.
 Se você apenas clonar o repositório não vai conseguir fazer push e depois vai ser mais complicado fazer o pull request.
 
 **Boa sorte!**
