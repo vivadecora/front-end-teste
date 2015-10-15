@@ -1,6 +1,6 @@
 # Teste para candidatos à vaga de desenvolvedor Front-end
 
-> Esse teste público. Todos que os interessados que fizerem pull request receberão um feedback da equipe Viva Decora.
+> Esse teste é público. Todos que os interessados que fizerem pull request receberão um feedback da equipe Viva Decora.
 
 ## Instruções:
 
