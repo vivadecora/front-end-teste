@@ -1,5 +1,7 @@
 # Teste para candidatos à vaga de desenvolvedor Front-end
 
+> Esse teste público. Todos que os interessados que fizerem pull request receberão um feedback da equipe Viva Decora.
+
 ## Instruções:
 
 0. Faça um fork deste repositório;
@@ -42,7 +44,7 @@
 | phone              | 320px          | Breakpoint para smartphones       |
 | tablet             | 768px          | Breakpoint para tablets           |
 | desktop            | 1024px         | Breakpoint para desktops comuns   |
-| monitor            |                | Breakpoints para desktops grandes |
+| monitor            | 1280px         | Breakpoints para desktops grandes |
 
 
 ## Material:
@@ -54,7 +56,5 @@
 
 Para iniciar o teste, faça um fork deste repositório, crie uma branch com o seu nome e depois envie-nos o pull request. 
 Se você apenas clonar o repositório não vai conseguir fazer push e depois vai ser mais complicado fazer o pull request.
-
-O teste é público e todos que fizerem seu pull request receberão um feedback da equipe Viva Decora ;)
 
 **Boa sorte!**
