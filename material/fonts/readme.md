@@ -1,6 +1,6 @@
 # Arquivos de fonte
 
-Nessa pasta separamos o arquivo de fonte **** que usamos em nosso site.
+Nessa pasta separamos o arquivo de fonte **viva-icon** que usamos em nosso site.
 Caso você opte por utilizar nossa fonte, basta importá-los da melhor maneira possível no seu projeto.
 
 Os ícones da fonte são.
