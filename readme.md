@@ -55,7 +55,7 @@
 ## Material:
 
 * Todos os layouts necessários estão disponíveis no [zeplin, projeto front-end-teste](https://zpl.io/17r9kd)
-* Fonte de ícones em [/material/font](/material/font)
+* Fonte de ícones em [/material/fonts](/material/fonts)
 
 ### Para visualizar o [projeto front-end-teste no zeplin](https://zpl.io/17r9kd):
 1. Acesse [https://zpl.io/17r9kd](https://zpl.io/17r9kd).
