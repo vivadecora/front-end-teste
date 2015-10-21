@@ -32,7 +32,7 @@
 * Faça commit também dos arquivos não minificados;
 * Dê suporte a IE10+, Chrome, Safari e Firefox.
 
-* **Importante:** Usamos o mesmo teste para todos os níveis de front: **junior**, **pleno** ou **senior**, mas procuramos adequar nossa exigência na avaliação com cada um desses níveis sem, por exemplo, exibir excelência de quem está começando :-)
+* **Importante:** Usamos o mesmo teste para todos os níveis de front: **junior**, **pleno** ou **senior**, mas procuramos adequar nossa exigência na avaliação com cada um desses níveis sem, por exemplo, exigir excelência de quem está começando :-)
 
 ### Ganhe pontos extras por:
 
