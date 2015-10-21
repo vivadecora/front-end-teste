@@ -29,8 +29,10 @@
 * Minifique seu css e deixe-o na pasta "css";
 * Minifique seu javascript e deixe-o na pasta "js";
 * Respeite os breakpoints definidos pelo design;
-* Commite também os arquivos não minificados;
+* Faça commit também dos arquivos não minificados;
 * Dê suporte a IE10+, Chrome, Safari e Firefox.
+
+* **Importante:** Usamos o mesmo teste para todos os níveis de front: **junior**, **pleno** ou **senior**, mas procuramos adequar nossa exigência na avaliação com cada um desses níveis sem, por exemplo, exibir excelência de quem está começando :-)
 
 ### Ganhe pontos extras por:
 
