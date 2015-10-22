@@ -1,12 +1,14 @@
 var gulp 		= require('gulp'),
 	del 		= require('del'),
 	jeet        = require('jeet'),
+	gulpif 		= require("gulp-if"),
 	stylus 		= require('gulp-stylus'),
 	uglify      = require('gulp-uglify'),
 	concat      = require('gulp-concat'),
 	plumber     = require('gulp-plumber'),
 	imagemin    = require('gulp-imagemin'),
 	config 		= require('./gulp.config')(),
+	spritesmith = require("gulp-spritesmith"),
 	prefixer    = require('autoprefixer-stylus'),
 	browserSync = require('browser-sync').create();
 
@@ -25,7 +27,7 @@ gulp.task('js', function () {
 gulp.task('stylus', function () {
     return gulp.src(config.styles + 'styles.styl')
     .pipe(plumber())
-    .pipe(stylus({
+    .pipe(stylus({ 
     	use:[prefixer(), jeet()],
       	//compress: true
     }))
@@ -36,12 +38,21 @@ gulp.task('stylus', function () {
 gulp.task('imagemin', function () {
     return gulp.src(config.img + '/**/*')
         .pipe(plumber())
-        .pipe(cache(imagemin({
-        	optimizationLevel: 3,
-        	progressive: true,
+        .pipe(cache(imagemin({ 
+        	optimizationLevel: 3, 
+        	progressive: true, 
         	interlaced: true })))
         .pipe(gulp.dest(config.img));
 });
+
+// Create Sprites
+gulp.task('sprites', function () {
+	return gulp.src(config.img + '*.png')
+		.pipe(spritesmith({
+		    destImg: config.img + 'sprite.png',
+		    destCSS: config.img + 'sprite.css'
+		}));
+})
 
 // Reload Browsers
 gulp.task('browser-sync', function () {

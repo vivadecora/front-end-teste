@@ -1,0 +1,13 @@
+header {
+  color: #aaa;
+  font-size: 10px;
+  text-align: center;
+  height: 70px;
+  width: 100%;
+}
+header .logo {
+  display: inline-block;
+  background: url("../img/320/logo-viva-decora.png") center no-repeat;
+  height: 25px;
+  width: 100%;
+}
