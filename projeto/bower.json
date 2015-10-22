@@ -1,0 +1,20 @@
+{
+  "name": "viva-decora-front-end-test",
+  "version": "0.0.0",
+  "homepage": "https://github.com/woliveiras/front-end-teste",
+  "authors": [
+    "woliveiras <w.oliveira542@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/assets",
+    "test",
+    "tests"
+  ]
+}

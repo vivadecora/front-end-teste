@@ -1,0 +1,148 @@
+* {
+  background: rgba(0,0,0,0.05);
+}
+body {
+  *zoom: 1;
+  width: auto;
+  max-width: 1440px;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0;
+}
+body:before,
+body:after {
+  content: '';
+  display: table;
+}
+body:after {
+  clear: both;
+}
+header {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: 3%;
+  height: 70px;
+  margin: 0;
+}
+header:before,
+header:after {
+  content: '';
+  display: table;
+}
+header:after {
+  clear: both;
+}
+header:last-child {
+  margin-right: 0%;
+}
+.logo {
+  background: url("../img/viva-decora-logo.svg") no-repeat center;
+  height: 35px;
+  *zoom: 1;
+  width: auto;
+  max-width: 1440px;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+.logo:before,
+.logo:after {
+  content: '';
+  display: table;
+}
+.logo:after {
+  clear: both;
+}
+.slogan {
+  *zoom: 1;
+  width: auto;
+  max-width: 1440px;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+  font-size: 10px;
+  text-align: center;
+  margin: 0;
+  color: #aaa;
+}
+.slogan:before,
+.slogan:after {
+  content: '';
+  display: table;
+}
+.slogan:after {
+  clear: both;
+}
+.call {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: 3%;
+  font-size: 14px;
+  color: #fff;
+  min-height: 318px;
+  position: relative;
+}
+.call:before,
+.call:after {
+  content: '';
+  display: table;
+}
+.call:after {
+  clear: both;
+}
+.call:last-child {
+  margin-right: 0%;
+}
+.call-text {
+  min-height: 111px;
+  height: 111px;
+  min-width: 300px;
+  text-align: center;
+}
+.social-box {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: 3%;
+  bottom: 0;
+  position: absolute;
+}
+.social-box:before,
+.social-box:after {
+  content: '';
+  display: table;
+}
+.social-box:after {
+  clear: both;
+}
+.social-box:last-child {
+  margin-right: 0%;
+}
+.btn {
+  display: inline-block;
+  min-height: 38px;
+  height: 38px;
+  min-width: 145px;
+  border-radius: 3px;
+}
