@@ -1,0 +1,102 @@
+.home {
+  position: relative;
+	
+	&:before, &:after {
+		content: "";
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		left: 0;
+		top: 0;
+	}
+
+	&:before {
+		@include bg-img("../images/bitmap.png");
+		z-index: 1;
+	}
+
+	&:after {
+		background-color: #44b1d7;
+		z-index: 2;
+		opacity: .5;
+	}
+
+	header {
+		background-color: white;
+		position: relative;
+		z-index: 3;
+
+		span {
+			display: block;
+			padding-top: 6px;
+			color: #aaa;
+			font-size: 10px;
+			text-align: center;
+		}
+
+		.logo {
+			width: 1%;
+			@extend .v-align;
+			text-align: center;
+			padding: 18px 0;
+
+			i {
+				display: inline-block;
+				width: 120px;
+				height: 24px;
+				@include icon("../images/logo-chamada-mobile.svg");
+			}
+		}
+
+		.anchors {
+			display: none;
+			@extend .v-align;
+			text-align: right;
+
+			ul {
+				list-style: none;
+				display: inline-block;
+
+				li {
+					display: inline-block;
+					margin: 0 8px;
+
+					&:last-of-type {
+						margin-right: 0;
+					}
+				}
+			}
+		}
+	}
+
+	article {
+		position: relative;
+		z-index: 3;
+		padding: 28px 0;
+
+		p {
+			text-align: center;
+			color: #fff;
+			font-weight: 500;
+		}
+
+		.social-media {
+			margin-top: 150px;
+
+			span {
+				display: block;
+				color: #fff;
+				font-weight: 300;
+				margin-bottom: 10px;
+			}
+
+			.btn-social {
+				width: calc(50% - 7.5px);
+
+				&.fb {
+					margin-right: 10px;
+				}
+			}
+		}
+	}
+}

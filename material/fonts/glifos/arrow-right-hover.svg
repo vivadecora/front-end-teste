@@ -14,7 +14,7 @@
    version="1.1"
    id="svg2"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="facebook-box.svg">
+   sodipodi:docname="arrow-right.svg">
   <metadata
      id="metadata15">
     <rdf:RDF>
@@ -23,7 +23,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title>comments</dc:title>
+        <dc:title>arrow-right</dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -40,33 +40,33 @@
      inkscape:window-height="751"
      id="namedview13"
      showgrid="false"
-     inkscape:zoom="0.71162281"
-     inkscape:cx="-19.722653"
-     inkscape:cy="217.81202"
+     inkscape:zoom="0.94400237"
+     inkscape:cx="140.23255"
+     inkscape:cy="243.31621"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="900"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg2" />
   <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
   <title
-     id="title4">comments</title>
+     id="title4">arrow-right</title>
   <desc
      id="desc6">Created with Sketch.</desc>
   <defs
      id="defs8" />
   <g
+     id="Page-1"
      sketch:type="MSPage"
-     id="Page-1-8"
-     style="fill:none;fill-rule:evenodd;stroke:none;stroke-width:1"
-     transform="matrix(25.6,0,0,25.6,-153.6,-153.6)">
+     transform="matrix(32,0,0,32.019122,-256,-247.15298)"
+     style="fill:none;fill-rule:evenodd;stroke:none;stroke-width:1">
     <g
+       id="arrow-right"
        sketch:type="MSArtboardGroup"
-       id="facebook"
-       style="fill:#ffffff">
+       style="fill:#cd2f27">
       <path
-         sketch:type="MSShapeGroup"
+         d="m 23.665283,16.623142 c 0.446289,-0.502072 0.446289,-1.315931 0,-1.818003 L 17.950946,8.3765543 c -0.44629,-0.5020724 -1.169725,-0.5020724 -1.616014,0 -0.44629,0.5020724 -0.44629,1.3159312 0,1.8180037 l 3.763462,4.233865 -10.9555266,0 C 8.5114331,14.428423 8,15.003782 8,15.71414 c 0,0.710359 0.5114331,1.285717 1.1428674,1.285717 l 10.9555266,0 -3.763462,4.233866 c -0.22286,0.250714 -0.334861,0.579858 -0.334861,0.909001 0,0.329144 0.11143,0.658288 0.334861,0.909002 0.446289,0.502073 1.169724,0.502073 1.616014,0 l 5.714337,-6.428584 z"
          id="Shape"
-         d="M 22.666532,6 9.3326591,6 C 7.4919697,6 6,7.4927788 6,9.3334682 L 6,22.666532 C 6,24.50803 7.4919697,26 9.3326591,26 l 6.6669369,0 0,-8.750354 -2.500102,0 0,-2.500101 2.500102,0 0,-1.874671 c 0,-1.725798 1.398923,-3.1247223 3.124721,-3.1247223 l 3.124722,0 0,2.5001013 -3.124722,0 c -0.345483,0 -0.62462,0.279946 -0.62462,0.624621 l 0,1.874671 3.437841,0 -0.624621,2.500101 -2.812411,0 0,8.750354 4.166835,0 C 24.50803,26 26,24.507221 26,22.666532 L 26,9.3334682 C 26,7.4919697 24.50803,6 22.667341,6 l -8.09e-4,0 z"
+         sketch:type="MSShapeGroup"
          inkscape:connector-curvature="0" />
     </g>
   </g>
