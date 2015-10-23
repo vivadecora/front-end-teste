@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="512"
+   height="512"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg2"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="heart-line.svg">
+  <metadata
+     id="metadata15">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>left</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1280"
+     inkscape:window-height="751"
+     id="namedview13"
+     showgrid="false"
+     inkscape:showpageshadow="false"
+     inkscape:zoom="0.9140625"
+     inkscape:cx="112.01622"
+     inkscape:cy="259.61582"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title4">left</title>
+  <desc
+     id="desc6">Created with Sketch.</desc>
+  <defs
+     id="defs8" />
+  <g
+     sketch:type="MSPage"
+     id="Page-1"
+     style="fill:none;fill-rule:evenodd;stroke:none;stroke-width:1"
+     transform="matrix(25.6,0,0,25.578947,-153.6,-166.05263)">
+    <g
+       sketch:type="MSArtboardGroup"
+       id="heart-line"
+       style="fill:#666666">
+      <path
+         sketch:type="MSShapeGroup"
+         id="Shape"
+         d="M 20.393209,7 C 18.833354,7 17.273499,7.870229 16.068156,9.3206107 14.862813,7.870229 13.373861,7 11.743103,7 8.5524903,7 6,9.5381679 6,12.656489 c 0,3.625954 2.2688802,5.583969 4.821371,7.759542 1.41805,1.232824 3.048807,2.610687 4.395955,4.496183 L 15.713644,25.564885 15.997253,26 l 0.283611,-0.435115 0.496317,-0.652671 c 1.205343,-1.812977 2.765198,-3.118321 4.183248,-4.423664 l 0.28361,-0.217558 c 2.339783,-2.030534 4.750468,-4.133587 4.750468,-7.614503 C 26.136312,9.5381679 23.512919,7 20.393209,7 l 0,0 z m 3.757833,5.656489 c 0,2.610687 -1.772563,4.133587 -4.041443,6.091603 l -0.0709,0 c -1.347147,1.087786 -2.694295,2.393129 -4.041443,3.988549 -1.13444,-1.377862 -2.339782,-2.465649 -3.40332,-3.408397 -0.141805,-0.145038 -0.354512,-0.290076 -0.496317,-0.435114 -2.3397831,-1.958016 -4.1832483,-3.553435 -4.1832483,-6.30916 0,-2.030535 1.7016602,-3.6259547 3.7578333,-3.6259547 l 0.0709,0 c 1.488953,0 2.8361,1.2328247 3.40332,2.5381677 l 0.567221,1.087787 0.283609,0.652671 0.283611,-0.652671 0.56722,-1.087787 c 0.56722,-1.232824 1.98527,-2.5381677 3.40332,-2.5381677 2.197978,0 3.899638,1.6679387 3.899638,3.6984737 l 0,0 z"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>

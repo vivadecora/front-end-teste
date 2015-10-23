@@ -1,0 +1,55 @@
+.call
+  background: url('../img/320/cozinha-vista-janela.png') 100% no-repeat
+  color: $white
+  font-size: 14px
+  padding: 10px
+  width: 100%
+  height: 320px
+  position: relative
+  padding: 0
+
+  &:before
+    content: ''
+    display: block
+    position: absolute
+    width: 100%
+    height: 95.5%
+    background: $summer-sky
+    opacity: 0.5
+    top: 0
+
+  &:after
+    content: ''
+    display: block
+    border-left: 11px solid transparent
+    border-right: 11px solid transparent
+    border-top: 12px solid $summer-sky
+    position: absolute
+    bottom: 2px
+    left: 47.5%
+    opacity: 0.5
+
+.call-item
+  position: relative
+  z-index: 1
+
+.caller
+  display: block
+  height: 110px
+  padding: 28px 15px
+  line-height: 15px
+  text-align: center
+
+.social-box
+  text-align: center
+  position: absolute
+  z-index: 1
+  bottom: 30px
+  left: 10px
+
+  a
+    margin-left: 5px
+
+  p
+    text-align: left
+    padding-left: 20px
