@@ -1,0 +1,63 @@
+footer {
+	padding: 20px 0;
+	background-color: #eee;
+
+	.social {
+		text-align: center;
+
+		.fb {
+			@include icon("../images/shape.svg", center, 20px);
+			display: inline-block;
+			width: 40px;
+			height: 40px;
+			border-radius: 50%;
+			background-color: #ccc;
+
+			&:nth-of-type(n+2) {
+				margin-left: 10px;
+			}
+		}
+	}
+
+	.menu {
+		margin-top: 20px;
+
+		ul {
+			list-style: none;
+
+			li {
+				display: inline-block;
+
+				a {
+					font-size: 12px;
+					color: $gray;
+					display: inline-block;
+					margin-right: 10px;
+					font-weight: 500;
+				}
+			}
+		}
+
+		p {
+			font-size: 12px;
+			color: $gray;
+			margin-top: 5px;
+		}
+	}
+
+	.partners {
+		margin-top: 20px;
+		text-align: center;
+
+		.partner {
+			display: inline-block;
+			width: 56px;
+			height: 27px;
+			@include icon("../images/logo-chamada-colorido.svg");
+
+			&:nth-of-type(n+2) {
+				margin-left: 10px;
+			}
+		}
+	}
+}

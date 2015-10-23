@@ -1,0 +1,102 @@
+.contato {
+	padding: 49px 0 31px 0;
+	background-color: $dark-blue;
+	position: relative;
+
+	&:before {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 50%;
+		margin-left: -8px;
+		border-top: solid 16px #ffffff;
+		border-left: solid 16px transparent;
+		border-right: solid 16px transparent;
+	}
+
+	h1, p {
+		font-weight: 300;
+		color: #fff;
+		text-align: center;
+	}
+
+	h1 {
+		font-size: 18px;
+	}
+
+	p {
+		margin-top: 5px;
+	}
+
+	.form {
+		margin-top: 14px;
+
+		label {
+			display: block;
+
+			span {
+				font-size: 14px;
+				color: #fff;
+			}
+
+			.input {
+				margin-top: 3px;
+
+				input {
+					width: 100%;
+					height: 40px;
+					padding: 0 10px;
+				}
+
+				::-webkit-input-placeholder {
+				  color: #aaa;
+				  font-style: italic;
+				}
+
+				:-moz-placeholder { /* Firefox 18- */
+				  color: #aaa;
+				  font-style: italic;
+				}
+
+				::-moz-placeholder {  /* Firefox 19+ */
+				  color: #aaa;
+				  font-style: italic;
+				}
+
+				:-ms-input-placeholder {  
+				  color: #aaa;
+				  font-style: italic;
+				}
+			}
+
+			&:nth-of-type(n+2) {
+				margin-top: 10px;
+			}
+		}
+
+		.saiba-mais {
+			@extend .btn;
+			width: 100%;
+			margin-top: 31px;
+			font-size: 18px;
+			height: 40px;
+		}
+	}
+
+	.tenho-interesse {
+    @extend .btn;
+		width: 300px;
+		margin: 31px auto 0 auto;
+		font-size: 18px;
+		height: 40px;
+		display: none;
+  }
+
+  .agradecimento {
+  	display: none;
+  	margin-top: 22px;
+  	font-size: 18px;
+  	color: #9bcbde;
+  	font-weight: 400;
+  }
+}

@@ -1,0 +1,280 @@
+@media(min-width: 320px) {
+  html, body {
+    .container {
+      padding: 0 10px;
+    }
+  }
+}
+
+@media(min-width: 768px) {
+  html, body {
+    .container {
+      padding: 0 20px;
+    }
+
+    .home {
+      span {
+        color: #fff;
+        text-align: left;
+      }
+
+      header {
+        background-color: transparent;
+
+        .logo {
+          padding: 8px 0 0 0;
+
+          i {
+            @include icon("../images/logo-chamada.svg");
+            width: 147px;
+            height: 43px;
+          }
+        }
+
+        .anchors {
+          display: table-cell;
+
+          ul li a {
+            color: #fff;
+            font-size: 12px;
+          }
+        }
+      }
+
+      article {
+        padding-top: 80px;
+        padding-bottom: 60px;
+
+        p {
+          text-align: left;
+          max-width: 300px;
+          font-weight: 300;
+          font-size: 24px;
+        }
+
+        .social-media {
+          margin-top: 40px;
+
+          .btn-social {
+            width: auto;
+
+            &.email {
+              float: left;
+              margin-right: 10px;
+            }
+          }
+        }
+      }
+    }
+
+    .como-funciona {
+      h1 {
+        font-size: 24px;
+      }
+
+      .steps {
+        padding-bottom: 35px;
+        margin-left: auto;
+        margin-right: auto;
+
+        .step {
+          width: 240px;
+          margin-right: 20px;
+
+          &:first-of-type {
+            margin-left: 20px;
+          }
+        }
+      }
+    }
+
+    .projetos {
+      .images {
+        .image {
+          padding: 0;
+          width: calc(25% - 29px);
+          margin-right: 0;
+
+          &:nth-of-type(n+2) {
+            margin-left: 29px;
+          }
+        }
+      }
+    }
+
+    .para-quem {
+      padding: 55px 0 47px 0;
+
+      .decoracao, .profissional {
+        .content {
+          h1 {
+            font-size: 24px;
+          }
+
+          p, .link {
+            font-size: 18px;
+            margin-top: 20px;
+          }
+
+          .link:after {
+            width: 18px;
+            height: 18px;
+          }
+        }
+      }
+
+      .decoracao {
+        .img {
+          width: 138px;
+        }
+
+        .content {
+          margin-left: 118px;
+          width: 312px;
+        }
+      }
+
+      .profissional {
+        .img {
+          float: right;
+          width: 210px;
+        }
+
+        .content {
+          margin-left: 0;
+          margin-right: 118px;
+          width: 312px;
+          text-align: right;
+        }
+      }
+    }
+
+    .contato {
+      h1 {
+        font-size: 24px;
+      }
+
+      p {
+        font-size: 18px;
+      }
+      
+      .form {
+        display: none;
+      }
+
+      .tenho-interesse {
+        display: block;
+      }
+    }
+  }
+}
+
+@media(min-width: 1024px) {
+  html, body {
+    .container {
+      padding: 0 20px;
+    }
+
+    .como-funciona {
+      .steps {
+        padding-bottom: 43px;
+
+        .step {
+          width: 310px;
+        }
+      }
+    }
+
+    .projetos {
+      .images {
+        .image {
+          width: calc(25% - 21px);
+
+          &:nth-of-type(n+2) {
+            margin-left: 21px;
+          }
+        }
+      }
+    }
+
+    .contato {
+      padding: 69px 0 78px 0;
+    }
+
+    footer {
+      .container {
+        position: relative;
+      }
+
+      .social, .partners {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+      }
+
+      .social {
+        right: 144px;
+      }
+
+      .partners {
+        margin: 0;
+        left: 144px;
+      }
+
+      .menu {
+        margin: 0 auto;
+        width: 500px;
+      }
+    }
+  }
+}
+
+@media(min-width: 1280px) {
+  html, body {
+    .container {
+      padding: 0 144px;
+    }
+
+    .home {
+      article {
+        padding-top: 60px;
+        padding-bottom: 140px;
+
+        .social-media {
+          margin-top: 20px;
+        }
+      }
+    }
+
+    .como-funciona {
+      .steps {
+        padding-bottom: 53px;
+
+        .step {
+          width: 370px;
+        }
+      }
+    }
+
+    .projetos {
+      .images {
+        .image {
+          width: calc(25% - 17px);
+
+          &:nth-of-type(n+2) {
+            margin-left: 17px;
+          }
+        }
+      }
+    }
+  }
+}
+
+//fix for iPhone
+@media screen and (max-device-width: 480px){
+  body{
+    -webkit-text-size-adjust: none;
+  }
+}
