@@ -1,1 +1,0 @@
-sass --sourcemap=none --watch css:style
