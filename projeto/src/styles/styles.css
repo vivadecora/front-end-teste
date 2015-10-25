@@ -191,6 +191,11 @@ th {
 .bolder {
   font-weight: bold;
 }
+.arrow-right:after {
+  content: "\f103";
+  font-family: "Viva icons";
+  padding-left: 10px;
+}
 .btn {
   color: #fff;
   display: inline-block;
@@ -222,6 +227,14 @@ th {
   font-family: "Viva icons";
   position: absolute;
   left: 20px;
+}
+.link {
+  font-size: 14px;
+  font-weight: normal;
+  color: #38a;
+  padding: 0;
+  text-align: left;
+  width: 100%;
 }
 .slider {
   height: 100%;
@@ -362,4 +375,36 @@ header .logo {
 .featured img {
   width: 275px;
   margin-bottom: 15px;
+}
+.is-to {
+  padding-top: 20px;
+}
+.is-to h1 {
+  font-size: 18px;
+}
+.is-to p {
+  font-size: 14px;
+}
+.is-to img {
+  display: table-cell;
+  vertical-align: top;
+  padding: 10px;
+}
+.is-to-content {
+  display: inline-block;
+  width: 70%;
+}
+.is-to-content h1,
+.is-to-content p {
+  color: #666;
+  font-weight: normal;
+}
+.is-to-content:after {
+  content: '';
+  display: block;
+  border-left: 11px solid transparent;
+  border-right: 11px solid transparent;
+  border-top: 12px solid #fff;
+  position: absolute;
+  left: 47.5%;
 }
