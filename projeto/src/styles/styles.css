@@ -223,6 +223,24 @@ th {
   position: absolute;
   left: 20px;
 }
+.slider {
+  height: 100%;
+}
+.slider h2 {
+  color: #00598c;
+  font-size: 18px;
+  font-weight: normal;
+}
+.slider p {
+  font-size: 14px;
+  text-align: left;
+  color: #666;
+}
+.slide-item {
+  border: 1px solid #eee;
+  border-radius: 3px;
+  box-shadow: 0px 1px 10px -4px rgba(0,0,0,0.75);
+}
 header {
   color: #aaa;
   font-size: 10px;
@@ -237,7 +255,7 @@ header .logo {
   width: 100%;
 }
 .call {
-  background: url("../img/320/cozinha-vista-janela.png") 100% no-repeat;
+  background: url("../img/320/cozinha-vista-janela.png") center 100% no-repeat;
   color: #fff;
   font-size: 14px;
   padding: 10px;
@@ -295,4 +313,34 @@ header .logo {
 .social-box p {
   text-align: left;
   padding-left: 20px;
+}
+.how-it-works {
+  height: 410px;
+  text-align: center;
+  padding-left: 10px;
+  position: relative;
+}
+.how-it-works:after {
+  content: '';
+  display: block;
+  border-left: 11px solid transparent;
+  border-right: 11px solid transparent;
+  border-top: 12px solid #fff;
+  position: absolute;
+  bottom: -34px;
+  left: 47.5%;
+}
+.how-it-works h1 {
+  font-size: 18px;
+  font-weight: normal;
+  color: #00598c;
+}
+.how-it-works .slide-item {
+  width: 270px;
+  height: 370px;
+  padding: 0 10px;
+}
+.featured {
+  background: #eee;
+  height: 795px;
 }

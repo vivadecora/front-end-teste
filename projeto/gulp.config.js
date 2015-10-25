@@ -3,7 +3,7 @@ module.exports = function () {
     src: './src/',
     img: './src/img/',
     js: './src/js/',
-    mainjs : '.src/main.js',
+    mainjs : 'main.js',
     sprites: './src/img/sprites/',
     styles: './src/styles/'
   };

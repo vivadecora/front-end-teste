@@ -14,13 +14,13 @@ var gulp 		= require('gulp'),
 
 // Uglify & Concat JS
 gulp.task('js', function () {
-	del(config.mainjs);
+	// del('./src/js/main.js');
 
-    return gulp.src(js + '**/*.js')
+    return gulp.src(['./src/js/vivadecora.js', './src/js/controllers/**/*.js' ])
         .pipe(plumber())
-        .pipe(concat(config.mainjs))
+        .pipe(concat('main.js'))
         .pipe(uglify())
-        .pipe(gulp.dest(config.js));
+        .pipe(gulp.dest('./src/js/'));
 });
 
 // Compile Stylus

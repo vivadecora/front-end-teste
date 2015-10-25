@@ -4,17 +4,18 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="utf-8">
-	<title>Pastel | Bem vindo</title>
+	<title>Viva Decora - Front End test</title>
 	<meta name="description" content="">
 	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 	<link rel='stylesheet' href='styles/styles.css'>
+	<link rel='stylesheet' href='assets/angular-carousel/dist/angular-carousel.min.css'>
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!--[if lt IE 9]>
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	<![endif]-->
 </head>
-<body>
+<body ng-app="vivaApp">
 
 <header>
 	<p>Excepteur sint occaecat cupidatat non proident</p>
@@ -32,24 +33,32 @@
 	</div>
 </section><!-- /call -->
 
-<section class="slider how-it-works">
+<section rn-carousel class="image how-it-works" ng-controller="vivaController">
 	<h1>Como funciona</h1>
-	<div class="slide-item">
-		<h2>01 Lorem ipsum dolor sit amet</h2>
-		<img src="" alt="">
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-	</div>
-	<div class="slide-item">
-		<h2>02 Lorem ipsum dolor sit amet</h2>
-		<img src="" alt="">
-		<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-	</div>
-	<div class="slide-item">
-		<h2>03 Lorem ipsum dolor sit amet</h2>
-		<img src="" alt="">
-		<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-	</div>
-</section> <!-- /Slider -->
+	<ul rn-carousel class="slider">
+	  <li>
+		<div class="slide-item">
+			<h2>01 Lorem ipsum dolor sit amet</h2>
+			<img src="img/320/step-01.png" alt="">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+		</div>
+	  </li>
+	  <li>
+		<div class="slide-item">
+			<h2>02 Lorem ipsum dolor sit amet</h2>
+			<img src="img/320/step-02.png" alt="">
+			<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+		</div>
+	  </li>
+	  <li>
+		<div class="slide-item">
+			<h2>03 Lorem ipsum dolor sit amet</h2>
+			<img src="img/320/step-03.png" alt="">
+			<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+		</div>
+	  </li>
+	</ul>
+</section><!-- /Slider -->
 
 <section class="featured">
 	<h1>Projetos destacados</h1>
@@ -146,7 +155,15 @@
 </footer> <!-- /Footer -->
 
 <!-- JS -->
-<script src="js/main.js"></script>
+<!-- Carousel with AngularJS -->
+<!--
+	If is needed suport to IE9<
+	https://github.com/revolunet/angular-carousel#notes-
+-->
+<script type="text/javascript" src="assets/angular/angular.min.js"></script>
+<script type="text/javascript" src="assets/angular-touch/angular-touch.min.js"></script>
+<script type="text/javascript" src="assets/angular-carousel/dist/angular-carousel.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
 <!-- ./JS -->
 </body>
 </html>

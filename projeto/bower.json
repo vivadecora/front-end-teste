@@ -18,5 +18,6 @@
     "tests"
   ],
   "dependencies": {
+    "angular-carousel": "~1.0.1"
   }
 }
