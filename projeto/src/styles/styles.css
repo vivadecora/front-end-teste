@@ -327,7 +327,7 @@ header .logo {
   border-right: 11px solid transparent;
   border-top: 12px solid #fff;
   position: absolute;
-  bottom: -34px;
+  bottom: -28px;
   left: 47.5%;
 }
 .how-it-works h1 {
@@ -342,5 +342,24 @@ header .logo {
 }
 .featured {
   background: #eee;
-  height: 795px;
+  text-align: center;
+}
+.featured:after {
+  content: '';
+  display: block;
+  border-left: 11px solid transparent;
+  border-right: 11px solid transparent;
+  border-top: 12px solid #eee;
+  position: absolute;
+  left: 47.5%;
+}
+.featured h1 {
+  color: #666;
+  font-size: 24px;
+  font-weight: normal;
+  padding-top: 30px;
+}
+.featured img {
+  width: 275px;
+  margin-bottom: 15px;
 }
