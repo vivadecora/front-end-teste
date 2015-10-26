@@ -4,7 +4,10 @@ define([
     'application/app',
     'client',
     'jquery',
-    'application/routers/AppRouter'
+    'application/routers/AppRouter',
+    'easing',
+    'greensock/TimelineMax',
+    'greensock/plugins/CSSPlugin'
 ], function (scope, app, client, $) {
     'use strict';
 

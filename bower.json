@@ -16,7 +16,10 @@
     "uri.js": "1.14.1",
     "underscore-deep": "1.0.1",
     "jquery-validation": "jquery.validation#~1.14.0",
-    "normalize-css": "~3.0.3"
+    "normalize-css": "~3.0.3",
+    "jquery-easing-original": "~1.3.2",
+    "gsap": "greensock#1.11.8",
+    "imagesloaded": "~3.1.8"
   },
   "devDependencies": {},
   "authors": [
