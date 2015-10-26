@@ -15,6 +15,11 @@
 		background: $mariner
 		box-shadow: 0 2px #203767
 
+		&:active
+			box-shadow: none
+			background: #203767
+			top: 2px
+
 		&:before
 			content: "\f10d"
 			font-family: "Viva icons"
@@ -25,7 +30,12 @@
 		background: $persian-red
 		box-shadow:	0 2px #a40216
 
-	.mail
+		&:active
+			box-shadow: none
+			background: #a40216
+			top: 2px
+
+	&.mail
 		&:before
 			content: "\f113"
 			font-family: "Viva icons"

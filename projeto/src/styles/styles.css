@@ -213,6 +213,11 @@ th {
   background: #3b5998;
   box-shadow: 0 2px #203767;
 }
+.btn.facebook:active {
+  box-shadow: none;
+  background: #203767;
+  top: 2px;
+}
 .btn.facebook:before {
   content: "\f10d";
   font-family: "Viva icons";
@@ -223,7 +228,12 @@ th {
   background: #cd2f27;
   box-shadow: 0 2px #a40216;
 }
-.btn .mail:before {
+.btn.red:active {
+  box-shadow: none;
+  background: #a40216;
+  top: 2px;
+}
+.btn.mail:before {
   content: "\f113";
   font-family: "Viva icons";
   position: absolute;
@@ -467,4 +477,83 @@ header .logo {
   width: 100%;
   margin-top: 20px;
   margin-bottom: 30px;
+}
+footer {
+  display: block;
+  background: #eee;
+  font-size: 12px;
+  color: #666;
+  text-align: center;
+}
+footer a {
+  text-decoration: none;
+  color: inherit;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+.social-icons ul {
+  padding: 0;
+  margin: 0;
+}
+.social-icons ul li {
+  list-style: none;
+  display: inline-block;
+}
+.social-icons span {
+  display: none;
+}
+.social-icons ul li {
+  background: #ccc;
+  margin: 10px;
+  line-height: 38px;
+  text-align: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.social-icons .icon {
+  font-family: "Viva icons";
+}
+.social-icons .icon.facebook:before {
+  content: "\f10d";
+}
+.social-icons .icon.instagram:before {
+  content: "\f10d";
+}
+.social-icons .icon.pinterest:before {
+  content: "\f10d";
+}
+.social-icons .icon.google-plus:before {
+  content: "\f10d";
+}
+.copyright {
+  width: 80%;
+  text-align: left;
+  margin: 0 auto;
+}
+.copyright p {
+  margin: 0;
+}
+.site-map {
+  padding-top: 20px;
+}
+.site-map ul {
+  padding: 0;
+  margin: 0;
+}
+.site-map ul li {
+  list-style: none;
+  display: inline-block;
+}
+.partners {
+  padding-top: 20px;
+}
+.partners ul {
+  padding: 0;
+  margin: 0;
+}
+.partners ul li {
+  list-style: none;
+  display: inline-block;
 }
