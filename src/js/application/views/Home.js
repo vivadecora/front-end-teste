@@ -2,7 +2,8 @@
 define([
     'scope',
     'client',
-    'underscore'
+    'underscore',
+    'validation'
 ], function (scope, client, _) {
     'use strict';
 
@@ -11,9 +12,60 @@ define([
         client.views.View.extend({
             template: 'pages/home',
             behaviors: {},
-            ui: {},
-            events: {},
-            onShow: function(){}
+            ui: {
+                'form': '.ui-form'
+            },
+            events: {
+                'click .e-interest': 'showForm'
+            },
+            showForm: function (e) {
+                var me=this,
+                    $el = $(e.target);
+
+                $el.slideUp('fast',function (){
+                    me.ui.form.slideDown('fast');
+                    me.formValidation();
+                })
+            },
+            formValidation:function(){
+                var me=this;
+                
+                this.ui.form.validate({
+                    ignore: '',
+                    messages: {
+                        'name': {
+                            required: ''
+                        },
+                        'email':{
+                            required: '',
+                            email:''
+                        },
+                        'company': {
+                            required: ''
+                        }
+                    },
+                    errorClass: "input-error",
+                    validClass: "valid",
+                    highlight: function(element, errorClass) {
+                        me.ui.form.find(element).addClass(errorClass);
+                    },
+                    unhighlight: function(element, errorClass) {
+                        me.ui.form.find(element).removeClass(errorClass);
+                    },
+                    invalidHandler: function() {
+                        me.ui.form.find('.error-message').fadeIn('fast');
+                    },
+                    submitHandler: function() {
+                        me.ui.form.fadeOut('fast').find('.error-message').fadeOut('fast');
+                        me.$el.find('.form-success').fadeIn('fast');
+                    }
+                });
+
+            },
+            onShow: function(){
+                this.ui.form.hide(0);
+                this.$el.find('.error-message, .form-success').hide(0);
+            },
         })
     );
 

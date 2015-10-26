@@ -76,27 +76,29 @@
         <h2>Quis nostrud exercitation ullamco laboris</h2>
         <p>Consectetur adipiscing elit, sed do eiusmod tempor</p>
 
-        <button tabindex="17" class="tenho-interesse">Tenho interesse</button>
+        <button tabindex="17" class="btn-interest e-interest">Tenho interesse</button>
 
-        <form class="form">
+        <form class="form ui-form">
             <fieldset>
                 <div>
                     <label>*Nome do contato</label>
-                    <input tabindex="18" type="text" name="contactName" class="input-text" maxlength="200">   
+                    <input tabindex="18" type="text" name="name" class="input-text name required" maxlength="200">   
                 </div>
                 <div>
                     <label>*Email</label>
-                    <input tabindex="19" type="text" name="contactEmail" class="input-text" maxlength="200">
+                    <input tabindex="19" type="text" name="email" class="input-text email required" maxlength="200">
                 </div>
                 <div>
                     <label>*Nome da empresa</label>
-                    <input tabindex="20" type="text" name="contactCompany" class="input-text" maxlength="200">
+                    <input tabindex="20" type="text" name="company" class="input-text company required" maxlength="200">
                 </div>
                 <input tabindex="21" type="submit" name="contactSend" class="input-button" value="Saiba mais">
+
+                <p class="error-message">* Campos de preenchimento obrigatório.</p>
             </fieldset>
         </form>
 
-        <p>Obrigado! Seus dados foram enviados.<br>Em breve entraremos em contato.</p>
+        <p class="form-success">Obrigado! Seus dados foram enviados.<br>Em breve entraremos em contato.</p>
 
     </div>
 </div>
