@@ -27,8 +27,8 @@ gulp.task('js', function () {
 gulp.task('stylus', function () {
     return gulp.src(config.styles + 'styles.styl')
     .pipe(plumber())
-    .pipe(stylus({ 
-    	use:[prefixer(), jeet()],
+    .pipe(stylus({
+    	use:[jeet(), prefixer()],
       	//compress: true
     }))
     .pipe(gulp.dest(config.styles));
@@ -38,9 +38,9 @@ gulp.task('stylus', function () {
 gulp.task('imagemin', function () {
     return gulp.src(config.img + '/**/*')
         .pipe(plumber())
-        .pipe(cache(imagemin({ 
-        	optimizationLevel: 3, 
-        	progressive: true, 
+        .pipe(cache(imagemin({
+        	optimizationLevel: 3,
+        	progressive: true,
         	interlaced: true })))
         .pipe(gulp.dest(config.img));
 });

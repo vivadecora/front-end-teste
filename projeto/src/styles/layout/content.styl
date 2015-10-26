@@ -89,7 +89,13 @@
     margin-bottom: 15px
 
 .is-to
-  padding-top: 20px
+  padding: 20px 0
+  position: relative
+
+  &:after
+    arrow(11px, 11px, 12px, $white)
+    left: 47.5%
+    bottom: -12px
 
   h1
     font-size: 18px
@@ -109,7 +115,3 @@
   h1, p
     color: $dim-gray
     font-weight: normal
-
-  &:after
-    arrow(11px, 11px, 12px, $white)
-    left: 47.5%

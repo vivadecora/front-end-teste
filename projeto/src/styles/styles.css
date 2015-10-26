@@ -198,6 +198,7 @@ th {
 }
 .btn {
   color: #fff;
+  border: none;
   display: inline-block;
   font-weight: bold;
   width: 145px;
@@ -218,11 +219,11 @@ th {
   position: absolute;
   left: 20px;
 }
-.btn.mail {
+.btn.red {
   background: #cd2f27;
   box-shadow: 0 2px #a40216;
 }
-.btn.mail:before {
+.btn .mail:before {
   content: "\f113";
   font-family: "Viva icons";
   position: absolute;
@@ -377,7 +378,18 @@ header .logo {
   margin-bottom: 15px;
 }
 .is-to {
-  padding-top: 20px;
+  padding: 20px 0;
+  position: relative;
+}
+.is-to:after {
+  content: '';
+  display: block;
+  border-left: 11px solid transparent;
+  border-right: 11px solid transparent;
+  border-top: 12px solid #fff;
+  position: absolute;
+  left: 47.5%;
+  bottom: -12px;
 }
 .is-to h1 {
   font-size: 18px;
@@ -399,12 +411,60 @@ header .logo {
   color: #666;
   font-weight: normal;
 }
-.is-to-content:after {
-  content: '';
+.contact {
+  background-color: #00598c;
+  background-image: -webkit-linear-gradient(170deg,#00598c,#046);
+  background-image: -webkit-linear-gradient(100deg, #00598c, #046);
+  background-image: linear-gradient(-10deg,#00598c,#046);
+  color: #fff;
+  font-family: "Roboto-Regular";
+  padding: 10px;
+}
+.contact h1 {
+  font-size: 18px;
+  padding-top: 30px;
+}
+.contact p {
+  font-size: 14px;
+}
+.contact h1,
+.contact p {
+  text-align: center;
+}
+.contact label {
   display: block;
-  border-left: 11px solid transparent;
-  border-right: 11px solid transparent;
-  border-top: 12px solid #fff;
-  position: absolute;
-  left: 47.5%;
+  margin-top: 20px;
+}
+.contact label:before {
+  content: '*';
+  float: left;
+}
+.contact input {
+  width: 100%;
+  height: 40px;
+}
+.contact input::-webkit-input-placeholder {
+  color: #aaa;
+  font-style: italic;
+  font-size: 12px;
+}
+.contact input:-moz-placeholder {
+  color: #aaa;
+  font-style: italic;
+  font-size: 12px;
+}
+.contact input::-moz-placeholder {
+  color: #aaa;
+  font-style: italic;
+  font-size: 12px;
+}
+.contact input:-ms-input-placeholder {
+  color: #aaa;
+  font-style: italic;
+  font-size: 12px;
+}
+.contact .btn {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
