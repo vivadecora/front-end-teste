@@ -10,7 +10,7 @@
 #front
 node_modules/
 npm-debug.log
-js/vendors/
+src/js/vendors/
 .tmp/
 .sass-cache/
 pub/
