@@ -187,6 +187,7 @@ th {
 }
 * {
   font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 .bolder {
   font-weight: bold;
@@ -200,7 +201,7 @@ th {
   color: #fff;
   border: none;
   display: inline-block;
-  font-weight: bold;
+  font-weight: 400;
   width: 145px;
   height: 38px;
   padding: 10px;
@@ -246,7 +247,6 @@ th {
 }
 .link {
   font-size: 14px;
-  font-weight: normal;
   color: #38a;
   padding: 0;
   text-align: left;
@@ -258,7 +258,7 @@ th {
 .slider h2 {
   color: #00598c;
   font-size: 18px;
-  font-weight: normal;
+  font-weight: 400;
 }
 .slider p {
   font-size: 14px;
@@ -287,6 +287,9 @@ header {
     padding-left: 20px;
   }
 }
+header p {
+  font-weight: 400;
+}
 header nav {
   display: none;
 }
@@ -295,6 +298,7 @@ header nav a {
   color: inherit;
   font-size: 12px;
   padding-left: 10px;
+  font-weight: 400;
 }
 header nav a:hover {
   text-decoration: underline;
@@ -355,32 +359,36 @@ header .logo {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=69)";
   filter: alpha(opacity=69);
   opacity: 0.69;
-  top: 0;
+  top: 1px;
 }
 @media all and (min-width: 768px) {
   .call:before {
     height: 100%;
+    top: 0;
   }
 }
 .call:after {
   content: '';
   display: block;
-  border-left: 11px solid transparent;
+  border-left: 12px solid transparent;
   border-right: 11px solid transparent;
-  border-top: 12px solid #44b1d7;
+  border-top: 13px solid #44b1d7;
   position: absolute;
-  bottom: 2px;
-  left: 47.5%;
+  bottom: 0px;
+  left: 47%;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
   filter: alpha(opacity=50);
   opacity: 0.5;
 }
 @media all and (min-width: 768px) {
   .call:after {
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent;
-    border-top: 25px solid #44b1d7;
-    bottom: -25px;
+    content: '';
+    display: block;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 20px solid #44b1d7;
+    position: absolute;
+    bottom: -20px;
   }
 }
 .call-item {
@@ -393,12 +401,12 @@ header .logo {
   padding: 28px 15px;
   line-height: 15px;
   text-align: center;
+  font-weight: 400;
 }
 @media all and (min-width: 768px) {
   .caller {
     float: left;
     font-size: 24px;
-    font-weight: normal;
     line-height: 30px;
     text-align: left;
     width: 60%;
@@ -418,6 +426,7 @@ header .logo {
   text-align: left;
   padding-left: 7px;
   margin: 5px 0;
+  font-weight: 400;
 }
 @media all and (min-width: 768px) {
   .social-box p {
@@ -429,6 +438,12 @@ header .logo {
   text-align: center;
   padding-left: 10px;
   position: relative;
+}
+@media all and (min-width: 768px) {
+  .how-it-works {
+    height: 450px;
+    padding-left: 5px;
+  }
 }
 .how-it-works:after {
   content: '';
@@ -442,13 +457,32 @@ header .logo {
 }
 .how-it-works h1 {
   font-size: 18px;
-  font-weight: normal;
   color: #00598c;
+}
+@media all and (min-width: 768px) {
+  .how-it-works h1 {
+    font-size: 24px;
+    padding-top: 20px;
+  }
+}
+@media all and (min-width: 768px) {
+  .how-it-works .slider li {
+    -webkit-transform: none !important;
+    -ms-transform: none !important;
+    transform: none !important;
+    position: relative;
+    width: 33%;
+  }
 }
 .how-it-works .slide-item {
   width: 270px;
   height: 370px;
   padding: 0 10px;
+}
+@media all and (min-width: 768px) {
+  .how-it-works .slide-item {
+    width: 240px;
+  }
 }
 .featured {
   background: #eee;
@@ -466,12 +500,16 @@ header .logo {
 .featured h1 {
   color: #666;
   font-size: 24px;
-  font-weight: normal;
   padding-top: 30px;
 }
 .featured img {
   width: 275px;
   margin-bottom: 15px;
+}
+@media all and (min-width: 768px) {
+  .featured img {
+    width: 160px;
+  }
 }
 .is-to {
   padding: 20px 0;
@@ -490,22 +528,73 @@ header .logo {
 .is-to h1 {
   font-size: 18px;
 }
+@media all and (min-width: 768px) {
+  .is-to h1 {
+    font-size: 24px;
+  }
+}
 .is-to p {
   font-size: 14px;
+}
+@media all and (min-width: 768px) {
+  .is-to p {
+    font-size: 18px;
+  }
 }
 .is-to img {
   display: table-cell;
   vertical-align: top;
   padding: 10px;
 }
+@media all and (min-width: 768px) {
+  .is-to img {
+    width: 140px;
+  }
+}
 .is-to-content {
   display: inline-block;
   width: 70%;
 }
+@media all and (min-width: 768px) {
+  .is-to-content {
+    width: 45%;
+  }
+}
 .is-to-content h1,
 .is-to-content p {
   color: #666;
-  font-weight: normal;
+}
+.img-container {
+  display: table;
+  float: left;
+  width: 30%;
+}
+@media all and (min-width: 768px) {
+  .img-container {
+    display: inline-block;
+    width: 40%;
+  }
+}
+@media all and (min-width: 768px) {
+  .users img {
+    margin-left: 80px;
+  }
+}
+@media all and (min-width: 768px) {
+  .creatives {
+    margin-right: 25px;
+    text-align: right;
+  }
+}
+@media all and (min-width: 768px) {
+  .creatives .img-container {
+    float: right;
+  }
+}
+@media all and (min-width: 768px) {
+  .creatives img {
+    width: 210px;
+  }
 }
 .contact {
   background-color: #00598c;
@@ -515,6 +604,9 @@ header .logo {
   color: #fff;
   font-family: "Roboto-Regular";
   padding: 10px;
+  height: auto;
+  float: left;
+  width: 100%;
 }
 .contact h1 {
   font-size: 18px;
@@ -527,6 +619,12 @@ header .logo {
 .contact p {
   text-align: center;
 }
+@media all and (min-width: 768px) {
+  .contact form {
+    width: 50%;
+    margin-left: 25%;
+  }
+}
 .contact label {
   display: block;
   margin-top: 20px;
@@ -538,6 +636,9 @@ header .logo {
 .contact input {
   width: 100%;
   height: 40px;
+  border: transparent;
+  padding: 5px;
+  border-radius: 3px;
 }
 .contact input::-webkit-input-placeholder {
   color: #aaa;
@@ -565,11 +666,12 @@ header .logo {
   margin-bottom: 30px;
 }
 footer {
-  display: block;
   background: #eee;
   font-size: 12px;
   color: #666;
   text-align: center;
+  float: left;
+  width: 100%;
 }
 footer a {
   text-decoration: none;
@@ -614,15 +716,15 @@ footer a:hover {
   content: "\f10d";
 }
 .copyright {
-  width: 80%;
   text-align: left;
   margin: 0 auto;
+  padding: 0 20px;
 }
 .copyright p {
   margin: 0;
 }
 .site-map {
-  padding-top: 20px;
+  padding-top: 10px;
 }
 .site-map ul {
   padding: 0;
@@ -631,6 +733,10 @@ footer a:hover {
 .site-map ul li {
   list-style: none;
   display: inline-block;
+}
+.site-map a {
+  font-weight: 400;
+  padding-right: 10px;
 }
 .partners {
   padding-top: 20px;

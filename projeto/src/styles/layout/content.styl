@@ -20,22 +20,21 @@
     height: 95.5%
     background: $summer-sky
     opacity: 0.69
-    top: 0
+    top: 1px
 
     +media-query( all, min-width $tablet )
       height: 100%
+      top: 0
 
   &:after
-    arrow(11px, 11px, 12px, $summer-sky)
-    bottom: 2px
-    left: 47.5%
+    arrow(12px, 11px, 13px, $summer-sky)
+    bottom: 0px
+    left: 47%
     opacity: 0.5
 
     +media-query( all, min-width $tablet )
-      border-left: 20px solid transparent
-      border-right: 20px solid transparent
-      border-top: 25px solid #44b1d7
-      bottom: -25px
+      arrow(15px, 15px, 20px, $summer-sky)
+      bottom: -20px
 
 .call-item
   position: relative
@@ -47,11 +46,11 @@
   padding: 28px 15px
   line-height: 15px
   text-align: center
+  font-weight: 400
 
   +media-query( all, min-width $tablet )
     float: left
     font-size: 24px
-    font-weight: normal
     line-height: 30px
     text-align: left
     width: 60%
@@ -70,6 +69,7 @@
     text-align: left
     padding-left: 7px
     margin: 5px 0
+    font-weight: 400
 
     +media-query( all, min-width $tablet )
       font-size: 18px
@@ -80,6 +80,10 @@
   padding-left: 10px
   position: relative
 
+  +media-query( all, min-width $tablet )
+    height: 450px
+    padding-left: 5px
+
   &:after
     arrow(11px, 11px, 12px, $white)
     bottom: -28px
@@ -87,13 +91,26 @@
 
   h1
     font-size: 18px
-    font-weight: normal
     color: $blue-lagoon
+
+    +media-query( all, min-width $tablet )
+      font-size: 24px
+      padding-top: 20px
+
+  .slider
+    li
+      +media-query( all, min-width $tablet )
+        transform: none!important
+        position: relative
+        width: 33%
 
   .slide-item
     width: 270px
     height: 370px
     padding: 0 10px
+
+    +media-query( all, min-width $tablet )
+      width: 240px
 
 .featured
   background: $white-smoke
@@ -106,12 +123,14 @@
   h1
     color: $dim-gray
     font-size: 24px
-    font-weight: normal
     padding-top: 30px
 
   img
     width: 275px
     margin-bottom: 15px
+
+    +media-query( all, min-width $tablet )
+      width: 160px
 
 .is-to
   padding: 20px 0
@@ -125,18 +144,57 @@
   h1
     font-size: 18px
 
+    +media-query( all, min-width $tablet )
+      font-size: 24px
+
   p
     font-size: 14px
+
+    +media-query( all, min-width $tablet )
+      font-size: 18px
 
   img
     display: table-cell
     vertical-align: top
     padding: 10px
 
+    +media-query( all, min-width $tablet )
+      width: 140px
+
 .is-to-content
   display: inline-block
   width: 70%
 
+  +media-query( all, min-width $tablet )
+    width: 45%
+
   h1, p
     color: $dim-gray
-    font-weight: normal
+
+
+.img-container
+  display: table
+  float: left
+  width: 30%
+
+  +media-query( all, min-width $tablet )
+    display: inline-block
+    width: 40%
+
+.users
+  img
+    +media-query( all, min-width $tablet )
+      margin-left: 80px
+
+.creatives
+  +media-query( all, min-width $tablet )
+    margin-right: 25px
+    text-align: right
+
+  .img-container
+    +media-query( all, min-width $tablet )
+      float: right
+
+  img
+    +media-query( all, min-width $tablet )
+      width: 210px
