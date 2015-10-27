@@ -1,0 +1,36 @@
+.topbar {
+    width: 100%;
+    height: 70px;
+    background-color: $white;
+    overflow: hidden;
+    position: relative;
+
+    .subtitle{
+        color: $grey-thin;
+        font-size: 1rem;
+        font-weight: 400;
+        width: 100%;
+        text-align: center;
+        margin-top: 6px;
+        margin-bottom: 12px;
+    }
+
+    .main-logo{
+        width: 100%;
+        height: 24px;
+        text-align: center;
+        margin-top: 6px;
+        margin-bottom: 6px;
+    }
+    .title-link{
+        width: 119px;
+        height: 100%;
+        display: inline-block;
+        background: transparent image-url('modules/topbar/vivadecora.png') 0 0 no-repeat;
+        text-indent: -99999px;
+    }
+
+    .navigation{
+        display: none;
+    }
+}

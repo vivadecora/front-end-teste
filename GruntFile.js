@@ -22,14 +22,14 @@ module.exports = function (grunt) {
     assets.forEach(function (asset) {
         config.assets.requirejs[asset] = {
             options: {
-                baseUrl: '<%= config.source %>/js',
+                baseUrl: '<%= config.source %>js',
                 optimize: 'uglify2',
                 include: ['requirejs', asset + '-config'],
                 mainConfigFile: [
-                    '<%= config.source %>/js/client/config.js',
-                    '<%= config.source %>/js/' + asset + '-config.js'
+                    '<%= config.source %>js/client/config.js',
+                    '<%= config.source %>js/' + asset + '-config.js'
                 ],
-                out: '<%= config.dist %>/js/' + asset + '-body.min.js',
+                out: '<%= config.dist %>js/' + asset + '-body.min.js',
                 generateSourceMaps: true,
                 preserveLicenseComments: false,
                 useStrict: true,
@@ -37,12 +37,10 @@ module.exports = function (grunt) {
                 findNestedDependencies: true
             }
         };
-        config.assets.cssmin['<%= config.dist %>/css/' + asset + '-styles.min.css'] =
+        config.assets.cssmin['<%= config.dist %>css/' + asset + '-styles.min.css'] =
             '.tmp/css/' + asset + '-styles.css';
-        config.assets.cssmin['<%= config.dist %>/css/fonts/' + asset + '-fonts.min.css'] =
-            '<%= config.source %>/css/fonts/' + asset + '-fonts.css';
-        config.assets.header['<%= config.dist %>/js/' + asset + '-header.min.js'] = [
-            '<%= config.source %>/js/vendors/modernizr/modernizr.js'
+        config.assets.header['<%= config.dist %>js/' + asset + '-header.min.js'] = [
+            '<%= config.source %>js/vendors/modernizr/modernizr.js'
         ];
     });
 
@@ -50,7 +48,7 @@ module.exports = function (grunt) {
         config: config,
         watch: {
             compass: {
-                files: ['<%= config.source %>/css/**/*.{scss,sass}'],
+                files: ['<%= config.source %>css/**/*.{scss,sass}'],
                 tasks: ['compass:server', 'copy:watch']
             },
             gruntfile: {
@@ -70,26 +68,24 @@ module.exports = function (grunt) {
         },
         compass: {
             options: {
-                sassDir: '<%= config.source %>/css',
+                sassDir: '<%= config.source %>css',
                 cssDir: '.tmp/css',
                 specify: assets.map(function (asset) {
-                    return '<%= config.source %>/css/' + asset + '-styles.scss';
+                    return '<%= config.source %>css/' + asset + '-styles.scss';
                 }),
                 generatedImagesDir: '.tmp/imgs/generated',
-                imagesDir: '<%= config.source %>/imgs',
-                javascriptsDir: '<%= config.source %>/js',
-                fontsDir: '<%= config.source %>/css/fonts',
-                importPath: '<%= config.source %>/js/vendors',
+                imagesDir: '<%= config.source %>imgs',
+                javascriptsDir: '<%= config.source %>js',
+                importPath: '<%= config.source %>js/vendors',
                 httpImagesPath: '../imgs',
                 httpGeneratedImagesPath: '../imgs/generated',
                 require: ['sass-css-importer'],
-                httpFontsPath: 'fonts',
                 assetCacheBuster: true
             },
             dist: {
                 options: {
                     debugInfo: false,
-                    generatedImagesDir: '<%= config.dist %>/imgs/generated'
+                    generatedImagesDir: '<%= config.dist %>imgs/generated'
                 }
             },
             server: {
@@ -114,9 +110,9 @@ module.exports = function (grunt) {
             dist: {
                 files: [{
                     expand: true,
-                    cwd: '<%= config.source %>/imgs',
+                    cwd: '<%= config.source %>imgs',
                     src: '**/*.{png,jpg,jpeg,gif}',
-                    dest: '<%= config.dist %>/imgs'
+                    dest: '<%= config.dist %>imgs'
                 }]
             }
         },
@@ -124,9 +120,9 @@ module.exports = function (grunt) {
             dist: {
                 files: [{
                     expand: true,
-                    cwd: '<%= config.source %>/imgs',
+                    cwd: '<%= config.source %>imgs',
                     src: '**/*.svg',
-                    dest: '<%= config.dist %>/imgs'
+                    dest: '<%= config.dist %>imgs'
                 }]
             }
         },
@@ -147,9 +143,9 @@ module.exports = function (grunt) {
                 files: assets.map(function (asset) {
                     return {
                         expand: true,
-                        cwd: '<%= config.source %>/' + asset + '-templates',
+                        cwd: '<%= config.source %>' + asset + '-templates',
                         src: '**/*.html',
-                        dest: '<%= config.dist %>/' + asset + '-templates'
+                        dest: '<%= config.dist %>' + asset + '-templates'
                     };
                 })
             }
@@ -163,17 +159,14 @@ module.exports = function (grunt) {
                         dot: true,
                         cwd: '<%= config.source %>',
                         dest: '<%= config.dist %>',
-                        src: [
-                            'imgs/**/*.{webp}',
-                            'css/fonts/**/*.{eot,svg,ttf,woff,woff2}'
-                        ]
+                        src: ['imgs/**/*.{webp}']
                     }
                 ]
             },
             styles: {
                 expand: true,
                 dot: true,
-                cwd: '<%= config.source %>/css',
+                cwd: '<%= config.source %>css',
                 dest: '.tmp/css/',
                 src: assets.map(function (asset) {
                     return asset + '-styles.css';
@@ -185,7 +178,7 @@ module.exports = function (grunt) {
                         expand: true,
                         dot: true,
                         cwd: '.tmp/imgs/',
-                        dest: '<%= config.source %>/imgs',
+                        dest: '<%= config.source %>imgs',
                         src: '**/*.*'
                     }
                 ].concat(
@@ -194,7 +187,7 @@ module.exports = function (grunt) {
                             expand: true,
                             dot: true,
                             cwd: '.tmp/css/',
-                            dest: '<%= config.source %>/css',
+                            dest: '<%= config.source %>css',
                             src: asset + '-styles.css'
                         };
                     })

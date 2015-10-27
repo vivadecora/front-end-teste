@@ -10,7 +10,7 @@ define([
     var Home = scope.register(
         'views.Home',
         client.views.View.extend({
-            template: 'pages/home',
+            template: 'templates/home',
             behaviors: {},
             ui: {
                 'form': '.ui-form'

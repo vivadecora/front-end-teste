@@ -1,0 +1,33 @@
+.howto{
+    width: 100%;
+    height: 410px;
+    background-color: $white;
+    overflow: hidden;
+
+    .title{
+        font-weight: 300;
+        font-size: 1.8rem;
+        width: 100%;
+        text-align: center;
+        color: $blue;
+    }
+
+    .list{
+        list-style: none;
+        width: 100%;
+        height: 337px;
+        padding-left: 0;
+    }
+
+    .item{
+        display: inline-block;
+        width: 270px;
+        height: 100%;
+    }
+    .link{
+        display: block;
+    }
+    .item-title{
+        
+    }
+}

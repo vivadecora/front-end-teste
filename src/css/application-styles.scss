@@ -5,6 +5,7 @@
         'compass/typography/text',
         'compass/utilities';
 
+
 // vendors
 @import 'CSS:../js/vendors/normalize-css/normalize';
 
@@ -13,17 +14,14 @@
         'application/resources/variables',
         'application/resources/animations';
 
-
-//layout
-
 // base
-@import 'application/base/globals';
+@import 'application/skel';
 
-// templates
-@import 'application/templates/topbar',
-        'application/templates/masthead',
-        'application/templates/howto',
-        'application/templates/highlights',
-        'application/templates/singup',
-        'application/templates/contact',
-        'application/templates/footer';
+@import 'application/modules/topbar',
+        'application/modules/masthead',
+        'application/modules/howto',
+        'application/modules/highlights',
+        'application/modules/singup',
+        'application/modules/contact',
+        'application/modules/foot';
+        
