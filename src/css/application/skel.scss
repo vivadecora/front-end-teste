@@ -1,10 +1,12 @@
 html{
     
     font-size: 10px;
-    
+
 }
 
 body{
     font-family: $regular;
+    text-rendering: optimizeLegibility;
+
     overflow-x: hidden;
 }

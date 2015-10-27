@@ -1,0 +1,33 @@
+.signup{
+    width: 100%;
+    height: 550px;
+    overflow: hidden;
+    position: relative;
+
+    &::before{
+        content: "";
+        top: 0;
+        left: 45%;
+        border-left: solid 16px transparent;
+        border-right: solid 16px transparent;
+        border-top: solid 16px $grey-light;
+        position: absolute;
+    }
+
+    .title{
+        color: $grey;
+        font-weight: 300;
+        font-size: 1.8rem;
+    }
+    .desc{
+        color: $grey;
+        font-weight: 300;
+        font-size: 1.4rem;   
+    }
+    .link{
+        color: $blue-light;
+        font-weight: 400;
+        font-size: 1.4rem;
+        text-decoration: none;
+    }
+}

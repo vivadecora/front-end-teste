@@ -7,7 +7,6 @@
     .title{
         font-weight: 300;
         font-size: 1.8rem;
-        width: 100%;
         text-align: center;
         color: $blue;
     }
@@ -22,12 +21,25 @@
     .item{
         display: inline-block;
         width: 270px;
-        height: 100%;
+        height: 337px;
+        @include box-shadow(0 2px 4px 2px $grey-light);
+        @include border-radius(2px);
     }
     .link{
         display: block;
+        text-decoration: none;
     }
     .item-title{
-        
+        font-weight: 400;
+        font-size: 1.8rem;
+        color: $blue;
+    }
+    .picture{
+        display: block;
+    }
+    .desc{
+        font-weight: 300;
+        font-size: 1.4rem;
+        color: $grey;   
     }
 }

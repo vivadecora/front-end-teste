@@ -24,7 +24,6 @@ define([
 
                 $el.slideUp('fast',function (){
                     me.ui.form.slideDown('fast');
-                    me.formValidation();
                 })
             },
             formValidation:function(){
@@ -63,8 +62,9 @@ define([
 
             },
             onShow: function(){
-                this.ui.form.hide(0);
                 this.$el.find('.error-message, .form-success').hide(0);
+
+                this.formValidation();
             },
         })
     );

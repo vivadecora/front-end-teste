@@ -3,4 +3,71 @@
     height: 175px;
     background-color: $grey-light;
     overflow: hidden;
+
+    .list-socials{
+        padding-left: 0;
+        list-style: none;
+        text-align: center;
+    }
+    .item-socials{
+        display: inline-block;
+        margin: 4px;
+    }
+    .link-socials{
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        background-color: $grey-classic;
+        @include border-radius(50%);
+        text-indent: -99999px;
+    }
+
+
+
+    .site-map{
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+    .list{
+        padding-left: 0;
+        list-style: none;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .item{
+        display: inline-block;
+    }
+    .link{
+        display: block;
+        text-decoration: none;
+        color: $grey;
+        font-weight: 400;
+        font-size: 1.2rem;
+    }
+
+
+
+    .legal-text{
+        color: $grey;
+        font-weight: 300;
+        font-size: 1.2rem;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+
+
+    .list-businesses{
+        width: 100%;
+        list-style: none;
+        padding-left: 0;
+        text-align: center;
+    }
+    .item-businesses{
+        display: inline-block;
+        margin: 8px;
+    }
+    .link-businesses{
+        display: block;
+    }
 }

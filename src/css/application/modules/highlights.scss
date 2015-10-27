@@ -1,0 +1,39 @@
+.highlights{
+    width: 100%;
+    overflow: hidden;
+    background-color: $grey-light;
+    position: relative;
+
+    &::before{
+        content: "";
+        top: 0;
+        left: 45%;
+        border-left: solid 16px transparent;
+        border-right: solid 16px transparent;
+        border-top: solid 16px $white;
+        position: absolute;
+    }
+
+    .title{
+        font-weight: 300;
+        font-size: 2.4rem;
+        color: $grey;
+        text-align: center;
+    }
+
+    .list{
+        list-style: none;
+        padding-left: 0;
+    }
+    .item{
+        display: block;
+    }
+    .link{
+        display: block;
+    }
+    .image{
+        display: block;
+        width: 88%;
+        margin: 6%;
+    }
+}
