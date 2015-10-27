@@ -24,6 +24,9 @@
         height: 337px;
         @include box-shadow(0 2px 4px 2px $grey-light);
         @include border-radius(2px);
+        overflow: hidden;
+        margin-left: 25px;
+        margin-right: 25px;
     }
     .link{
         display: block;
@@ -33,13 +36,23 @@
         font-weight: 400;
         font-size: 1.8rem;
         color: $blue;
+        padding-left:5%; 
+        padding-right:3%;
+        white-space: nowrap;
+        margin-bottom: 10px;
     }
     .picture{
         display: block;
+        padding-left: 10%;
+        padding-right: 10%;
     }
     .desc{
         font-weight: 300;
         font-size: 1.4rem;
-        color: $grey;   
+        line-height: 1.8rem;
+        color: $grey;
+        padding-left:5%; 
+        padding-right:5%;
+        margin-top: 10px;
     }
 }

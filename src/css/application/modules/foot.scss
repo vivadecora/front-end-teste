@@ -19,7 +19,16 @@
         height: 40px;
         background-color: $grey-classic;
         @include border-radius(50%);
-        text-indent: -99999px;
+        color: $white;
+        font-size: 1.8rem;
+        line-height: 4rem;
+        
+        span{display: none;}
+
+        &::before{
+            @include insert-icon(icon-facebook-box);
+
+        }
     }
 
 

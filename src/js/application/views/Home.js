@@ -56,14 +56,13 @@ define([
                     },
                     submitHandler: function() {
                         me.ui.form.fadeOut('fast').find('.error-message').fadeOut('fast');
-                        me.$el.find('.form-success').fadeIn('fast');
+                        me.$el.find('.message-success').fadeIn('fast');
                     }
                 });
 
             },
             onShow: function(){
-                this.$el.find('.error-message, .form-success').hide(0);
-
+                
                 this.formValidation();
             },
         })

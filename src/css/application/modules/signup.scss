@@ -14,6 +14,23 @@
         position: absolute;
     }
 
+    %sign {
+        @include box-sizing(border-box);
+        margin: 40px 6% 0;
+        padding-left: 72px;
+    }
+
+    .signup-common{
+        @extend %sign;
+        background: transparent image-url('modules/signup/demo-01.svg') 0 0 no-repeat;
+        background-size: 60px 94px;
+    }
+    .signup-professional{
+        @extend %sign;
+        background: transparent image-url('modules/signup/demo-02.svg') 0 0 no-repeat;
+        background-size: 60px 51px;
+    }
+
     .title{
         color: $grey;
         font-weight: 300;
@@ -29,5 +46,8 @@
         font-weight: 400;
         font-size: 1.4rem;
         text-decoration: none;
+        &::after{
+            @include insert-icon(icon-arrow-right);
+        }
     }
 }

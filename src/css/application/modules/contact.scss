@@ -85,4 +85,12 @@
         font-style: italic;
         color: $white;
     }
+    .message-success{
+        display: none;
+        color: $blue-white;
+        font-size: 1.6rem;
+        text-align: center;
+        font-weight: 400;
+        padding: 5%;
+    }
 }

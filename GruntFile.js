@@ -76,10 +76,12 @@ module.exports = function (grunt) {
                 generatedImagesDir: '.tmp/imgs/generated',
                 imagesDir: '<%= config.source %>imgs',
                 javascriptsDir: '<%= config.source %>js',
+                fontsDir: '<%= config.source %>css/fonts',
                 importPath: '<%= config.source %>js/vendors',
                 httpImagesPath: '../imgs',
                 httpGeneratedImagesPath: '../imgs/generated',
                 require: ['sass-css-importer'],
+                httpFontsPath: 'fonts',
                 assetCacheBuster: true
             },
             dist: {
@@ -159,7 +161,10 @@ module.exports = function (grunt) {
                         dot: true,
                         cwd: '<%= config.source %>',
                         dest: '<%= config.dist %>',
-                        src: ['imgs/**/*.{webp}']
+                        src: [
+                            'imgs/**/*.{webp}',
+                            'css/fonts/**/*.{eot,svg,ttf,woff,woff2}'
+                        ]
                     }
                 ]
             },

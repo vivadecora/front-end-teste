@@ -433,6 +433,143 @@ th {
   padding: 0;
 }
 
+@font-face {
+  font-family: 'viva-icons';
+  src: url("application/fonts/viva-icons.eot?55669104");
+  src: url("application/fonts/viva-icons.eot?55669104#iefix") format("embedded-opentype"), url("application/fonts/viva-icons.woff?55669104") format("woff"), url("application/fonts/viva-icons.ttf?55669104") format("truetype"), url("application/fonts/viva-icons.svg?55669104#viva-icons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 13, ../../src/css/application/resources/variables.scss */
+.icon-arrow-bottom-right {
+  content: '\e800';
+}
+
+/* line 14, ../../src/css/application/resources/variables.scss */
+.icon-arrow-left {
+  content: '\e801';
+}
+
+/* line 15, ../../src/css/application/resources/variables.scss */
+.icon-arrow-right, .signup .link::after {
+  content: '\e802';
+}
+
+/* line 16, ../../src/css/application/resources/variables.scss */
+.icon-arrow-top {
+  content: '\e803';
+}
+
+/* line 17, ../../src/css/application/resources/variables.scss */
+.icon-balloons-white-black {
+  content: '\e804';
+}
+
+/* line 18, ../../src/css/application/resources/variables.scss */
+.icon-camera {
+  content: '\e805';
+}
+
+/* line 19, ../../src/css/application/resources/variables.scss */
+.icon-caret-mini-down {
+  content: '\e806';
+}
+
+/* line 20, ../../src/css/application/resources/variables.scss */
+.icon-caret-mini-left {
+  content: '\e807';
+}
+
+/* line 21, ../../src/css/application/resources/variables.scss */
+.icon-caret-mini-right {
+  content: '\e808';
+}
+
+/* line 22, ../../src/css/application/resources/variables.scss */
+.icon-caret-mini-up {
+  content: '\e809';
+}
+
+/* line 23, ../../src/css/application/resources/variables.scss */
+.icon-check-sign {
+  content: '\e80a';
+}
+
+/* line 24, ../../src/css/application/resources/variables.scss */
+.icon-cross {
+  content: '\e80b';
+}
+
+/* line 25, ../../src/css/application/resources/variables.scss */
+.icon-facebook-box, .masthead .btn-fb::before, .foot .link-socials::before {
+  content: '\e80c';
+}
+
+/* line 26, ../../src/css/application/resources/variables.scss */
+.icon-garbage {
+  content: '\e80d';
+}
+
+/* line 27, ../../src/css/application/resources/variables.scss */
+.icon-gear {
+  content: '\e80e';
+}
+
+/* line 28, ../../src/css/application/resources/variables.scss */
+.icon-heart-full {
+  content: '\e80f';
+}
+
+/* line 29, ../../src/css/application/resources/variables.scss */
+.icon-heart-line {
+  content: '\e810';
+}
+
+/* line 30, ../../src/css/application/resources/variables.scss */
+.icon-home {
+  content: '\e811';
+}
+
+/* line 31, ../../src/css/application/resources/variables.scss */
+.icon-letter, .masthead .btn-email::before {
+  content: '\e812';
+}
+
+/* line 32, ../../src/css/application/resources/variables.scss */
+.icon-logo {
+  content: '\e813';
+}
+
+/* line 33, ../../src/css/application/resources/variables.scss */
+.icon-magnifying-glass {
+  content: '\e814';
+}
+
+/* line 34, ../../src/css/application/resources/variables.scss */
+.icon-open-book {
+  content: '\e815';
+}
+
+/* line 35, ../../src/css/application/resources/variables.scss */
+.icon-person {
+  content: '\e816';
+}
+
+/* line 36, ../../src/css/application/resources/variables.scss */
+.icon-styler-plus {
+  content: '\e817';
+}
+
+/* line 37, ../../src/css/application/resources/variables.scss */
+.icon-styler {
+  content: '\e818';
+}
+
+/* line 38, ../../src/css/application/resources/variables.scss */
+.icon-three-lines-horizontal {
+  content: '\e819';
+}
+
 /* line 1, ../../src/css/application/skel.scss */
 html {
   font-size: 10px;
@@ -489,22 +626,23 @@ body {
   position: relative;
   overflow: hidden;
 }
-/* line 13, ../../src/css/application/modules/masthead.scss */
+/* line 8, ../../src/css/application/modules/masthead.scss */
 .masthead .title {
   color: #fff;
   text-align: center;
   font-size: 1.4rem;
+  line-height: 1.8rem;
   font-weight: 500;
   padding-left: 4%;
   padding-right: 4%;
 }
-/* line 22, ../../src/css/application/modules/masthead.scss */
+/* line 18, ../../src/css/application/modules/masthead.scss */
 .masthead .action {
   position: absolute;
   bottom: 0;
   width: 100%;
 }
-/* line 27, ../../src/css/application/modules/masthead.scss */
+/* line 23, ../../src/css/application/modules/masthead.scss */
 .masthead .to {
   font-weight: 300;
   font-size: 1.4rem;
@@ -513,7 +651,7 @@ body {
   padding-right: 1.5%;
   margin-bottom: 25px;
 }
-/* line 36, ../../src/css/application/modules/masthead.scss */
+/* line 32, ../../src/css/application/modules/masthead.scss */
 .masthead .btn-fb, .masthead .btn-email {
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
@@ -525,20 +663,39 @@ body {
   font-size: 1.8rem;
   margin: 5px;
 }
-/* line 46, ../../src/css/application/modules/masthead.scss */
+/* line 42, ../../src/css/application/modules/masthead.scss */
 .masthead .desc {
   display: inline-block;
   padding-left: 5px;
   padding-right: 5px;
 }
-/* line 52, ../../src/css/application/modules/masthead.scss */
+/* line 48, ../../src/css/application/modules/masthead.scss */
 .masthead .btn-fb {
   background-color: #3b5998;
   -moz-box-shadow: 0 3px 1px #203767;
   -webkit-box-shadow: 0 3px 1px #203767;
   box-shadow: 0 3px 1px #203767;
 }
-/* line 57, ../../src/css/application/modules/masthead.scss */
+/* line 53, ../../src/css/application/modules/masthead.scss */
+.masthead .btn-fb::before {
+  font-family: "viva-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em;
+  margin-left: .2em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-right: 8px;
+}
+/* line 58, ../../src/css/application/modules/masthead.scss */
 .masthead .btn-email {
   background-color: #cd2f27;
   -moz-box-shadow: 0 3px 1px #a40216;
@@ -546,6 +703,25 @@ body {
   box-shadow: 0 3px 1px #a40216;
 }
 /* line 63, ../../src/css/application/modules/masthead.scss */
+.masthead .btn-email::before {
+  font-family: "viva-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em;
+  margin-left: .2em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-right: 8px;
+}
+/* line 69, ../../src/css/application/modules/masthead.scss */
 .masthead::before {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -558,7 +734,7 @@ body {
   border-right: 148px solid #fff;
   border-left: 152px solid #fff;
 }
-/* line 74, ../../src/css/application/modules/masthead.scss */
+/* line 80, ../../src/css/application/modules/masthead.scss */
 .masthead::after {
   content: "";
   bottom: 0;
@@ -602,27 +778,40 @@ body {
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
   border-radius: 2px;
+  overflow: hidden;
+  margin-left: 25px;
+  margin-right: 25px;
 }
-/* line 28, ../../src/css/application/modules/howto.scss */
+/* line 31, ../../src/css/application/modules/howto.scss */
 .howto .link {
   display: block;
   text-decoration: none;
 }
-/* line 32, ../../src/css/application/modules/howto.scss */
+/* line 35, ../../src/css/application/modules/howto.scss */
 .howto .item-title {
   font-weight: 400;
   font-size: 1.8rem;
   color: #00598c;
+  padding-left: 5%;
+  padding-right: 3%;
+  white-space: nowrap;
+  margin-bottom: 10px;
 }
-/* line 37, ../../src/css/application/modules/howto.scss */
+/* line 44, ../../src/css/application/modules/howto.scss */
 .howto .picture {
   display: block;
+  padding-left: 10%;
+  padding-right: 10%;
 }
-/* line 40, ../../src/css/application/modules/howto.scss */
+/* line 49, ../../src/css/application/modules/howto.scss */
 .howto .desc {
   font-weight: 300;
   font-size: 1.4rem;
+  line-height: 1.8rem;
   color: #666;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-top: 10px;
 }
 
 /* line 1, ../../src/css/application/modules/highlights.scss */
@@ -687,23 +876,59 @@ body {
   position: absolute;
 }
 /* line 17, ../../src/css/application/modules/signup.scss */
+.signup .signup-common, .signup .signup-professional {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 40px 6% 0;
+  padding-left: 72px;
+}
+/* line 23, ../../src/css/application/modules/signup.scss */
+.signup .signup-common {
+  background: transparent url('../imgs/modules/signup/demo-01.svg?1445738740') 0 0 no-repeat;
+  background-size: 60px 94px;
+}
+/* line 28, ../../src/css/application/modules/signup.scss */
+.signup .signup-professional {
+  background: transparent url('../imgs/modules/signup/demo-02.svg?1445738740') 0 0 no-repeat;
+  background-size: 60px 51px;
+}
+/* line 34, ../../src/css/application/modules/signup.scss */
 .signup .title {
   color: #666;
   font-weight: 300;
   font-size: 1.8rem;
 }
-/* line 22, ../../src/css/application/modules/signup.scss */
+/* line 39, ../../src/css/application/modules/signup.scss */
 .signup .desc {
   color: #666;
   font-weight: 300;
   font-size: 1.4rem;
 }
-/* line 27, ../../src/css/application/modules/signup.scss */
+/* line 44, ../../src/css/application/modules/signup.scss */
 .signup .link {
   color: #3388aa;
   font-weight: 400;
   font-size: 1.4rem;
   text-decoration: none;
+}
+/* line 49, ../../src/css/application/modules/signup.scss */
+.signup .link::after {
+  font-family: "viva-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em;
+  margin-left: .2em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /* line 1, ../../src/css/application/modules/contact.scss */
@@ -809,6 +1034,15 @@ body {
   font-style: italic;
   color: #fff;
 }
+/* line 88, ../../src/css/application/modules/contact.scss */
+.contact .message-success {
+  display: none;
+  color: #9bcbde;
+  font-size: 1.6rem;
+  text-align: center;
+  font-weight: 400;
+  padding: 5%;
+}
 
 /* line 1, ../../src/css/application/modules/foot.scss */
 .foot {
@@ -837,25 +1071,49 @@ body {
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
-  text-indent: -99999px;
+  color: #fff;
+  font-size: 1.8rem;
+  line-height: 4rem;
 }
-/* line 27, ../../src/css/application/modules/foot.scss */
+/* line 26, ../../src/css/application/modules/foot.scss */
+.foot .link-socials span {
+  display: none;
+}
+/* line 28, ../../src/css/application/modules/foot.scss */
+.foot .link-socials::before {
+  font-family: "viva-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em;
+  margin-left: .2em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* line 36, ../../src/css/application/modules/foot.scss */
 .foot .site-map {
   padding-left: 7%;
   padding-right: 7%;
 }
-/* line 31, ../../src/css/application/modules/foot.scss */
+/* line 40, ../../src/css/application/modules/foot.scss */
 .foot .list {
   padding-left: 0;
   list-style: none;
   margin-top: 0;
   margin-bottom: 0;
 }
-/* line 37, ../../src/css/application/modules/foot.scss */
+/* line 46, ../../src/css/application/modules/foot.scss */
 .foot .item {
   display: inline-block;
 }
-/* line 40, ../../src/css/application/modules/foot.scss */
+/* line 49, ../../src/css/application/modules/foot.scss */
 .foot .link {
   display: block;
   text-decoration: none;
@@ -863,7 +1121,7 @@ body {
   font-weight: 400;
   font-size: 1.2rem;
 }
-/* line 50, ../../src/css/application/modules/foot.scss */
+/* line 59, ../../src/css/application/modules/foot.scss */
 .foot .legal-text {
   color: #666;
   font-weight: 300;
@@ -871,19 +1129,19 @@ body {
   margin-top: 0;
   margin-bottom: 0;
 }
-/* line 60, ../../src/css/application/modules/foot.scss */
+/* line 69, ../../src/css/application/modules/foot.scss */
 .foot .list-businesses {
   width: 100%;
   list-style: none;
   padding-left: 0;
   text-align: center;
 }
-/* line 66, ../../src/css/application/modules/foot.scss */
+/* line 75, ../../src/css/application/modules/foot.scss */
 .foot .item-businesses {
   display: inline-block;
   margin: 8px;
 }
-/* line 70, ../../src/css/application/modules/foot.scss */
+/* line 79, ../../src/css/application/modules/foot.scss */
 .foot .link-businesses {
   display: block;
 }
