@@ -39,6 +39,8 @@ module.exports = function (grunt) {
         };
         config.assets.cssmin['<%= config.dist %>css/' + asset + '-styles.min.css'] =
             '.tmp/css/' + asset + '-styles.css';
+        config.assets.cssmin['<%= config.dist %>css/fonts/' + asset + '-fonts.min.css'] =
+            '<%= config.source %>css/fonts/' + asset + '-fonts.css';
         config.assets.header['<%= config.dist %>js/' + asset + '-header.min.js'] = [
             '<%= config.source %>js/vendors/modernizr/modernizr.js'
         ];
@@ -162,7 +164,7 @@ module.exports = function (grunt) {
                         cwd: '<%= config.source %>',
                         dest: '<%= config.dist %>',
                         src: [
-                            'imgs/**/*.{webp}',
+                            'imgs/**/*.*',
                             'css/fonts/**/*.{eot,svg,ttf,woff,woff2}'
                         ]
                     }

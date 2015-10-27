@@ -433,139 +433,132 @@ th {
   padding: 0;
 }
 
-@font-face {
-  font-family: 'viva-icons';
-  src: url("application/fonts/viva-icons.eot?55669104");
-  src: url("application/fonts/viva-icons.eot?55669104#iefix") format("embedded-opentype"), url("application/fonts/viva-icons.woff?55669104") format("woff"), url("application/fonts/viva-icons.ttf?55669104") format("truetype"), url("application/fonts/viva-icons.svg?55669104#viva-icons") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-/* line 13, ../../src/css/application/resources/variables.scss */
+/* line 2, ../../src/css/application/resources/variables.scss */
 .icon-arrow-bottom-right {
   content: '\e800';
 }
 
-/* line 14, ../../src/css/application/resources/variables.scss */
+/* line 3, ../../src/css/application/resources/variables.scss */
 .icon-arrow-left {
   content: '\e801';
 }
 
-/* line 15, ../../src/css/application/resources/variables.scss */
+/* line 4, ../../src/css/application/resources/variables.scss */
 .icon-arrow-right, .signup .link::after {
   content: '\e802';
 }
 
-/* line 16, ../../src/css/application/resources/variables.scss */
+/* line 5, ../../src/css/application/resources/variables.scss */
 .icon-arrow-top {
   content: '\e803';
 }
 
-/* line 17, ../../src/css/application/resources/variables.scss */
+/* line 6, ../../src/css/application/resources/variables.scss */
 .icon-balloons-white-black {
   content: '\e804';
 }
 
-/* line 18, ../../src/css/application/resources/variables.scss */
+/* line 7, ../../src/css/application/resources/variables.scss */
 .icon-camera {
   content: '\e805';
 }
 
-/* line 19, ../../src/css/application/resources/variables.scss */
+/* line 8, ../../src/css/application/resources/variables.scss */
 .icon-caret-mini-down {
   content: '\e806';
 }
 
-/* line 20, ../../src/css/application/resources/variables.scss */
+/* line 9, ../../src/css/application/resources/variables.scss */
 .icon-caret-mini-left {
   content: '\e807';
 }
 
-/* line 21, ../../src/css/application/resources/variables.scss */
+/* line 10, ../../src/css/application/resources/variables.scss */
 .icon-caret-mini-right {
   content: '\e808';
 }
 
-/* line 22, ../../src/css/application/resources/variables.scss */
+/* line 11, ../../src/css/application/resources/variables.scss */
 .icon-caret-mini-up {
   content: '\e809';
 }
 
-/* line 23, ../../src/css/application/resources/variables.scss */
+/* line 12, ../../src/css/application/resources/variables.scss */
 .icon-check-sign {
   content: '\e80a';
 }
 
-/* line 24, ../../src/css/application/resources/variables.scss */
+/* line 13, ../../src/css/application/resources/variables.scss */
 .icon-cross {
   content: '\e80b';
 }
 
-/* line 25, ../../src/css/application/resources/variables.scss */
+/* line 14, ../../src/css/application/resources/variables.scss */
 .icon-facebook-box, .masthead .btn-fb::before, .foot .link-socials::before {
   content: '\e80c';
 }
 
-/* line 26, ../../src/css/application/resources/variables.scss */
+/* line 15, ../../src/css/application/resources/variables.scss */
 .icon-garbage {
   content: '\e80d';
 }
 
-/* line 27, ../../src/css/application/resources/variables.scss */
+/* line 16, ../../src/css/application/resources/variables.scss */
 .icon-gear {
   content: '\e80e';
 }
 
-/* line 28, ../../src/css/application/resources/variables.scss */
+/* line 17, ../../src/css/application/resources/variables.scss */
 .icon-heart-full {
   content: '\e80f';
 }
 
-/* line 29, ../../src/css/application/resources/variables.scss */
+/* line 18, ../../src/css/application/resources/variables.scss */
 .icon-heart-line {
   content: '\e810';
 }
 
-/* line 30, ../../src/css/application/resources/variables.scss */
+/* line 19, ../../src/css/application/resources/variables.scss */
 .icon-home {
   content: '\e811';
 }
 
-/* line 31, ../../src/css/application/resources/variables.scss */
+/* line 20, ../../src/css/application/resources/variables.scss */
 .icon-letter, .masthead .btn-email::before {
   content: '\e812';
 }
 
-/* line 32, ../../src/css/application/resources/variables.scss */
+/* line 21, ../../src/css/application/resources/variables.scss */
 .icon-logo {
   content: '\e813';
 }
 
-/* line 33, ../../src/css/application/resources/variables.scss */
+/* line 22, ../../src/css/application/resources/variables.scss */
 .icon-magnifying-glass {
   content: '\e814';
 }
 
-/* line 34, ../../src/css/application/resources/variables.scss */
+/* line 23, ../../src/css/application/resources/variables.scss */
 .icon-open-book {
   content: '\e815';
 }
 
-/* line 35, ../../src/css/application/resources/variables.scss */
+/* line 24, ../../src/css/application/resources/variables.scss */
 .icon-person {
   content: '\e816';
 }
 
-/* line 36, ../../src/css/application/resources/variables.scss */
+/* line 25, ../../src/css/application/resources/variables.scss */
 .icon-styler-plus {
   content: '\e817';
 }
 
-/* line 37, ../../src/css/application/resources/variables.scss */
+/* line 26, ../../src/css/application/resources/variables.scss */
 .icon-styler {
   content: '\e818';
 }
 
-/* line 38, ../../src/css/application/resources/variables.scss */
+/* line 27, ../../src/css/application/resources/variables.scss */
 .icon-three-lines-horizontal {
   content: '\e819';
 }
