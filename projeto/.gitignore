@@ -10,7 +10,6 @@ __pycache__/
 env/
 build/
 develop-eggs/
-dist/
 downloads/
 eggs/
 lib/
@@ -184,4 +183,3 @@ node_modules
 src/assets
 app/assets
 vendor
-dist
