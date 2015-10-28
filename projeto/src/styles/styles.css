@@ -318,6 +318,11 @@ header nav a:hover {
     display: inline-block;
   }
 }
+@media all and (min-width: 1024px) {
+  header nav {
+    width: 43%;
+  }
+}
 header .logo {
   display: inline-block;
   background: url("../img/320/logo-viva-decora.png") center no-repeat;
@@ -334,7 +339,8 @@ header .logo {
   }
 }
 .call {
-  background: url("../img/320/cozinha-vista-janela.png") center 100% no-repeat;
+  background: url("../img/320/cozinha-vista-janela.png") no-repeat;
+  background-size: cover;
   color: #fff;
   font-size: 14px;
   padding: 10px;
@@ -345,8 +351,16 @@ header .logo {
 }
 @media all and (min-width: 768px) {
   .call {
-    background: url("../img/768/cozinha-vista-janela@3x.png") 100% no-repeat;
+    background: url("../img/768/cozinha-vista-janela@3x.png") no-repeat;
+    background-size: cover;
     height: 410px;
+  }
+}
+@media all and (min-width: 1024px) {
+  .call {
+    background: url("../img/1024/bitmap@3x.png") no-repeat;
+    background-size: cover;
+    height: 460px;
   }
 }
 .call:before {
@@ -384,11 +398,11 @@ header .logo {
   .call:after {
     content: '';
     display: block;
-    border-left: 15px solid transparent;
-    border-right: 15px solid transparent;
-    border-top: 20px solid #44b1d7;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 15px solid #44b1d7;
     position: absolute;
-    bottom: -20px;
+    bottom: -15px;
   }
 }
 .call-item {
@@ -410,6 +424,11 @@ header .logo {
     line-height: 30px;
     text-align: left;
     width: 60%;
+  }
+}
+@media all and (min-width: 1024px) {
+  .caller {
+    width: 30%;
   }
 }
 .social-box {
@@ -445,6 +464,11 @@ header .logo {
     padding-left: 5px;
   }
 }
+@media all and (min-width: 1024px) {
+  .how-it-works {
+    padding: 0 20px;
+  }
+}
 .how-it-works:after {
   content: '';
   display: block;
@@ -475,13 +499,18 @@ header .logo {
   }
 }
 .how-it-works .slide-item {
-  width: 270px;
+  width: 295px;
   height: 370px;
   padding: 0 10px;
 }
 @media all and (min-width: 768px) {
   .how-it-works .slide-item {
     width: 240px;
+  }
+}
+@media all and (min-width: 1024px) {
+  .how-it-works .slide-item {
+    width: 310px;
   }
 }
 .featured {
@@ -509,6 +538,12 @@ header .logo {
 @media all and (min-width: 768px) {
   .featured img {
     width: 160px;
+  }
+}
+@media all and (min-width: 1024px) {
+  .featured img {
+    width: 230px;
+    margin: 20px 5px;
   }
 }
 .is-to {
@@ -575,6 +610,11 @@ header .logo {
     width: 40%;
   }
 }
+@media all and (min-width: 1024px) {
+  .users .img-container {
+    padding-left: 70px;
+  }
+}
 @media all and (min-width: 768px) {
   .users img {
     margin-left: 80px;
@@ -584,6 +624,11 @@ header .logo {
   .creatives {
     margin-right: 25px;
     text-align: right;
+  }
+}
+@media all and (min-width: 1024px) {
+  .creatives .is-to-content {
+    padding-right: 70px;
   }
 }
 @media all and (min-width: 768px) {
@@ -673,6 +718,11 @@ footer {
   float: left;
   width: 100%;
 }
+@media all and (min-width: 1024px) {
+  footer {
+    padding: 10px 20px;
+  }
+}
 footer a {
   text-decoration: none;
   color: inherit;
@@ -687,6 +737,12 @@ footer a:hover {
 .social-icons ul li {
   list-style: none;
   display: inline-block;
+}
+@media all and (min-width: 1024px) {
+  .social-icons {
+    display: inline-block;
+    float: right;
+  }
 }
 .social-icons span {
   display: none;
@@ -720,6 +776,11 @@ footer a:hover {
   margin: 0 auto;
   padding: 0 20px;
 }
+@media all and (min-width: 1024px) {
+  .copyright {
+    display: inline-block;
+  }
+}
 .copyright p {
   margin: 0;
 }
@@ -748,4 +809,10 @@ footer a:hover {
 .partners ul li {
   list-style: none;
   display: inline-block;
+}
+@media all and (min-width: 1024px) {
+  .partners {
+    display: inline-block;
+    float: left;
+  }
 }

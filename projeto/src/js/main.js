@@ -1,1 +1,1 @@
-angular.module("vivaApp",["angular-carousel"]),angular.module("vivaApp").controller("vivaController",function(){console.log("To aqui mano!")});
+!function(){angular.module("vivaApp",["angular-carousel"])}(),function(){"use strict";angular.module("vivaApp").controller("vivaController",function(){console.log("OK")})}();

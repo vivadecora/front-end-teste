@@ -15,7 +15,7 @@ header
 
   p
     font-weight: 400
-    
+
   nav
     display: none
 
@@ -34,6 +34,9 @@ header
       float: right
       list-inline()
       width: 75%
+
+    +media-query( all, min-width $desktop )
+      width: 43%      
 
   .logo
     display: inline-block

@@ -6,6 +6,9 @@ footer
   float: left
   width: 100%
 
+  +media-query( all, min-width $desktop )
+    padding: 10px 20px
+
   a
     text-decoration: none
     color: inherit
@@ -15,6 +18,10 @@ footer
 
 .social-icons
   list-inline()
+
+  +media-query( all, min-width $desktop )
+    display: inline-block
+    float: right
 
   span
     display: none
@@ -53,6 +60,9 @@ footer
   margin: 0 auto
   padding: 0 20px
 
+  +media-query( all, min-width $desktop )
+    display: inline-block
+
   p
     margin: 0
 
@@ -68,3 +78,7 @@ footer
 .partners
   padding-top: 20px
   list-inline()
+
+  +media-query( all, min-width $desktop )
+    display: inline-block
+    float: left
