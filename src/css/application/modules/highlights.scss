@@ -8,7 +8,7 @@
 
     &::before{
         content: "";
-        top: 0;
+        top: -2px;
         left: 45%;
         border-left: solid 16px transparent;
         border-right: solid 16px transparent;
@@ -22,7 +22,7 @@
         color: $grey;
         text-align: center;
         margin-top: 30px;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
 
     .list{
@@ -31,13 +31,28 @@
     }
     .item{
         display: block;
+        margin: 6%;
     }
     .link{
         display: block;
     }
     .image{
-        display: block;
-        width: 88%;
-        margin: 6%;
+        width: 100%;
+    }
+}
+@media(min-width: $tablet) and (max-width: 989px){
+    .highlights{
+        height: 272px;
+        .list{
+            width: 704px;
+            margin: 0 auto;
+        }
+        .item{
+            display: inline-block;
+            width: 160px;
+            height: 160px;
+            margin: 1%;
+        }
+
     }
 }

@@ -22,7 +22,7 @@ define([
                 var me=this,
                     $el = $(e.target);
 
-                $el.slideUp('fast',function (){
+                $el.fadeOut('fast',function (){
                     me.ui.form.slideDown('fast');
                 })
             },

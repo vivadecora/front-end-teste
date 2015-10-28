@@ -82,3 +82,8 @@
         display: block;
     }
 }
+@media(min-width: $tablet) and (max-width: 989px){
+    .foot{
+        height: 140px;
+    }
+}

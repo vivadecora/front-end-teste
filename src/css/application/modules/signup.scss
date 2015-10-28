@@ -8,7 +8,7 @@
 
     &::before{
         content: "";
-        top: 0;
+        top: -2px;
         left: 45%;
         border-left: solid 16px transparent;
         border-right: solid 16px transparent;
@@ -50,6 +50,38 @@
         text-decoration: none;
         &::after{
             @include insert-icon(icon-arrow-right);
+        }
+    }
+}
+
+@media(min-width: $tablet) and (max-width: 989px){
+    .signup{
+        height: 680px;
+        %sign-tablet {
+            margin: 40px 10% 0;
+        }
+
+        .signup-common{
+            @extend %sign-tablet;
+            background-size: 138px 215px;
+            padding-left: 285px;
+        }
+        .signup-professional{
+            @extend %sign-tablet;
+            background-size: 210px 180px;
+            background-position: right 0;
+            padding-left: 0;
+            padding-right: 330px;
+            text-align: right;
+        }
+        .title{
+            font-size: 2.4rem;
+        }
+        .desc{
+            font-size: 1.8rem;
+        }
+        .link{
+            font-size: 1.8rem;
         }
     }
 }
