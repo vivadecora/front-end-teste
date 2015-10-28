@@ -229,7 +229,7 @@ th {
   background: #cd2f27;
   box-shadow: 0 2px #a40216;
 }
-@media all and (min-width: 320px) {
+@media all and (min-width: $phone) {
   .btn.red {
     float: left;
   }
@@ -287,6 +287,11 @@ header {
     padding-left: 20px;
   }
 }
+@media all and (min-width: 1280px) {
+  header {
+    padding: 0 5%;
+  }
+}
 header p {
   font-weight: 400;
 }
@@ -320,7 +325,8 @@ header nav a:hover {
 }
 @media all and (min-width: 1024px) {
   header nav {
-    width: 43%;
+    padding-right: 20px;
+    width: initial;
   }
 }
 header .logo {
@@ -409,6 +415,11 @@ header .logo {
   position: relative;
   z-index: 1;
 }
+@media all and (min-width: 1280px) {
+  .call-item {
+    padding: 0 5%;
+  }
+}
 .caller {
   display: block;
   height: 110px;
@@ -437,6 +448,11 @@ header .logo {
   z-index: 1;
   bottom: 30px;
   left: 10px;
+}
+@media all and (min-width: 1280px) {
+  .social-box {
+    padding: 0 5%;
+  }
 }
 .social-box a {
   margin-left: 5px;
@@ -467,6 +483,11 @@ header .logo {
 @media all and (min-width: 1024px) {
   .how-it-works {
     padding: 0 20px;
+  }
+}
+@media all and (min-width: 1280px) {
+  .how-it-works {
+    padding: 0 5%;
   }
 }
 .how-it-works:after {
@@ -511,6 +532,11 @@ header .logo {
 @media all and (min-width: 1024px) {
   .how-it-works .slide-item {
     width: 310px;
+  }
+}
+@media all and (min-width: 1280px) {
+  .how-it-works .slide-item {
+    width: 370px;
   }
 }
 .featured {
@@ -576,23 +602,21 @@ header .logo {
     font-size: 18px;
   }
 }
-.is-to img {
-  display: table-cell;
-  vertical-align: top;
-  padding: 10px;
-}
 @media all and (min-width: 768px) {
   .is-to img {
     width: 140px;
+    float: right;
+    margin-right: 10%;
   }
 }
 .is-to-content {
   display: inline-block;
   width: 70%;
+  padding-left: 10px;
 }
 @media all and (min-width: 768px) {
   .is-to-content {
-    width: 45%;
+    width: 50%;
   }
 }
 .is-to-content h1,
@@ -600,36 +624,22 @@ header .logo {
   color: #666;
 }
 .img-container {
-  display: table;
   float: left;
-  width: 30%;
+  width: 20%;
+  padding-top: 20px;
 }
 @media all and (min-width: 768px) {
   .img-container {
-    display: inline-block;
-    width: 40%;
-  }
-}
-@media all and (min-width: 1024px) {
-  .users .img-container {
-    padding-left: 70px;
-  }
-}
-@media all and (min-width: 768px) {
-  .users img {
-    margin-left: 80px;
+    width: 50%;
   }
 }
 @media all and (min-width: 768px) {
   .creatives {
-    margin-right: 25px;
     text-align: right;
   }
 }
-@media all and (min-width: 1024px) {
-  .creatives .is-to-content {
-    padding-right: 70px;
-  }
+.creatives a {
+  text-align: right;
 }
 @media all and (min-width: 768px) {
   .creatives .img-container {
@@ -639,6 +649,8 @@ header .logo {
 @media all and (min-width: 768px) {
   .creatives img {
     width: 210px;
+    float: left;
+    margin-left: 10%;
   }
 }
 .contact {

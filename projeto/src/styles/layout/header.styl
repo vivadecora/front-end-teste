@@ -13,6 +13,9 @@ header
     text-align: left
     padding-left: 20px
 
+  +media-query( all, min-width $monitor )
+    padding: 0 5%
+
   p
     font-weight: 400
 
@@ -36,7 +39,8 @@ header
       width: 75%
 
     +media-query( all, min-width $desktop )
-      width: 43%      
+      padding-right: 20px
+      width: initial
 
   .logo
     display: inline-block

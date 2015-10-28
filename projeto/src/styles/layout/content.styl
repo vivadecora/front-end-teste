@@ -47,6 +47,9 @@
   position: relative
   z-index: 1
 
+  +media-query( all, min-width $monitor )
+    padding: 0 5%
+
 .caller
   display: block
   height: 110px
@@ -72,6 +75,9 @@
   bottom: 30px
   left: 10px
 
+  +media-query( all, min-width $monitor )
+    padding: 0 5%
+
   a
     margin-left: 5px
 
@@ -95,7 +101,10 @@
     padding-left: 5px
 
   +media-query( all, min-width $desktop )
-    padding: 0 20px;
+    padding: 0 20px
+
+  +media-query( all, min-width $monitor )
+    padding: 0 5%
 
   &:after
     arrow(11px, 11px, 12px, $white)
@@ -127,6 +136,9 @@
 
     +media-query( all, min-width $desktop )
       width: 310px
+
+    +media-query( all, min-width $monitor )
+      width: 370px
 
 .featured
   background: $white-smoke
@@ -174,50 +186,38 @@
       font-size: 18px
 
   img
-    display: table-cell
-    vertical-align: top
-    padding: 10px
 
     +media-query( all, min-width $tablet )
       width: 140px
+      float: right
+      margin-right: 10%
 
 .is-to-content
   display: inline-block
   width: 70%
+  padding-left: 10px
 
   +media-query( all, min-width $tablet )
-    width: 45%
+    width: 50%
 
   h1, p
     color: $dim-gray
 
 
 .img-container
-  display: table
   float: left
-  width: 30%
+  width: 20%
+  padding-top: 20px
 
   +media-query( all, min-width $tablet )
-    display: inline-block
-    width: 40%
-
-.users
-  .img-container
-    +media-query( all, min-width $desktop )
-      padding-left: 70px
-
-  img
-    +media-query( all, min-width $tablet )
-      margin-left: 80px
+    width: 50%
 
 .creatives
   +media-query( all, min-width $tablet )
-    margin-right: 25px
     text-align: right
 
-  .is-to-content
-    +media-query( all, min-width $desktop )
-      padding-right: 70px
+  a
+    text-align: right
 
   .img-container
     +media-query( all, min-width $tablet )
@@ -226,3 +226,5 @@
   img
     +media-query( all, min-width $tablet )
       width: 210px
+      float: left
+      margin-left: 10%
