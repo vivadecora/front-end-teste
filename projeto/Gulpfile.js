@@ -76,10 +76,12 @@ gulp.task('browser-sync', function () {
 
 // Distribution task
 gulp.task('dist', function () {
-	del('dist');
 	gulp.src(['src/img/**/*']).pipe(gulp.dest('dist/img/'));
 	gulp.src(['src/js/main.js']).pipe(gulp.dest('dist/js/'));
+	gulp.src(['src/js/lazy-load/*']).pipe(gulp.dest('dist/js/lazy-load/'));
+	gulp.src(['src/assets/**/*']).pipe(gulp.dest('dist/assets/'));
 	gulp.src(['src/styles/*.css']).pipe(gulp.dest('dist/styles/'));
+	gulp.src(['src/styles/fonts/**/*']).pipe(gulp.dest('dist/styles/fonts'));
 	gulp.src(['src/**/*.html', 'src/**/*.txt']).pipe(gulp.dest('dist/'));
 });
 

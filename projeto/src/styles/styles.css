@@ -735,6 +735,11 @@ footer {
     padding: 10px 20px;
   }
 }
+@media all and (min-width: 1280px) {
+  footer {
+    padding: 0 5%;
+  }
+}
 footer a {
   text-decoration: none;
   color: inherit;
