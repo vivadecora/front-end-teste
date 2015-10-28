@@ -1,5 +1,7 @@
 .howto{
-    width: 100%;
+    width: 100vw;
+    min-width: $mobile;
+    
     height: 410px;
     background-color: $white;
     overflow: hidden;

@@ -1,5 +1,7 @@
 .signup{
-    width: 100%;
+    width: 100vw;
+    min-width: $mobile;
+    
     height: 550px;
     overflow: hidden;
     position: relative;

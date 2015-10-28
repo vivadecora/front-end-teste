@@ -1,5 +1,7 @@
 .masthead{
-    width: 100%;
+    width: 100vw;
+    min-width: $mobile;
+    
     height: 317px;
     background: linear-gradient(rgba($blue-soft, .6), rgba($blue-soft, .6)), image-url('modules/masthead/bitmap.png') center top / cover no-repeat;
     position: relative;
@@ -13,6 +15,7 @@
         font-weight: 500;
         padding-left: 4%;
         padding-right: 4%;
+        margin-top: 20px;
     }
 
     .action{
@@ -26,7 +29,7 @@
         color: $white;
         padding-left: 1.5%;
         padding-right: 1.5%;
-        margin-bottom: 25px;
+        margin-bottom: 35px;
     }
 
     %btn{
@@ -34,7 +37,7 @@
         border: 0;
         color: $white;
         width: 145px;
-        height: 35px;
+        height: 30px;
         font-size: 1.8rem;
         margin: 5px;
     }
@@ -65,27 +68,31 @@
             margin-right: 8px;
         }
     }
-
-    &::before{
-        @include box-sizing(border-box);
-        content: "";
-        bottom: 0;
-        height: 10px;
-        position: absolute;
+    .bullet{
         width: 100%;
-        border-right: 148px solid $white;
-        border-left: 152px solid $white;  
+        height: 15px;
+        position: absolute;
+        bottom: 0;
+        overflow: hidden;
+        &::before{
+            position: absolute;
+            top: -21px;
+            left: 46%;
+            content: "";
+            height: 20px;
+            width: 20px;
+            background: transparent;
+            -webkit-transform-origin: 0% 100%;
+            -moz-transform-origin: 0% 100%;
+            -ms-transform-origin: 0% 100%;
+            transform-origin: 0% 100%;
+            -webkit-transform: rotate(45deg);
+            -moz-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+            box-shadow: 0 0 0 5000px rgba(255, 255, 255, 1);  
+        }
     }
 
-    &::after{
-        content: "";
-        bottom: 0;
-        left: 50%;
-        border-left: solid 10px $white;
-        border-right: solid 10px $white;
-        border-top: solid 10px transparent;
-        position: absolute;
-        margin-left: -8px;
-    }
     
 }

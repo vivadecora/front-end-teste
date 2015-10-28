@@ -1,5 +1,7 @@
 .foot{
-    width: 100%;
+    width: 100vw;
+    min-width: $mobile;
+    
     height: 175px;
     background-color: $grey-light;
     overflow: hidden;

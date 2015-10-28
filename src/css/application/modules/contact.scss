@@ -1,6 +1,9 @@
 .contact{
     @include box-sizing(border-box);
-    width: 100%;
+
+    width: 100vw;
+    min-width: $mobile;
+    
     height: 441px;
     background-color: $blue-black;
     overflow: hidden;

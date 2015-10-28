@@ -1,4 +1,7 @@
 .topbar {
+    width: 100vw;
+    min-width: $mobile;
+
     height: 70px;
     background-color: $white;
     overflow: hidden;
