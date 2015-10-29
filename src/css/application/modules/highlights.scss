@@ -73,3 +73,19 @@
 
     }
 }
+@include wide {
+    .highlights{
+        height: 415px;
+        .list{
+            width: 1160px;
+            margin: 0 auto;
+        }
+        .item{
+            display: inline-block;
+            width: 274px;
+            height: 274px;
+            margin: .6%;
+        }
+
+    }
+}

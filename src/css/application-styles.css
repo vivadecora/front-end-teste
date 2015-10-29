@@ -572,6 +572,8 @@ html {
 body {
   font-family: "Roboto", "Arial", sans-serif;
   text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
 }
 
@@ -695,6 +697,40 @@ body {
     right: 20px;
   }
 }
+@media (min-width: 1280px) {
+  /* line 112, ../../src/css/application/modules/topbar.scss */
+  .topbar {
+    width: 1160px;
+    height: 80px;
+    background-color: transparent;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  /* line 125, ../../src/css/application/modules/topbar.scss */
+  .topbar .subtitle {
+    color: #fff;
+    text-align: initial;
+  }
+  /* line 129, ../../src/css/application/modules/topbar.scss */
+  .topbar .main-logo {
+    text-align: initial;
+  }
+  /* line 132, ../../src/css/application/modules/topbar.scss */
+  .topbar .title-link {
+    width: 147px;
+    height: 43px;
+    background: transparent url('../imgs/modules/topbar/vivadecora.svg?1445999602') 0 0 no-repeat;
+  }
+  /* line 137, ../../src/css/application/modules/topbar.scss */
+  .topbar .navigation {
+    display: block;
+    right: 20px;
+  }
+}
 /* line 1, ../../src/css/application/modules/masthead.scss */
 .masthead {
   width: 100vw;
@@ -812,7 +848,7 @@ body {
 .masthead .bullet::before {
   position: absolute;
   top: -21px;
-  left: 46%;
+  left: calc(50% - 10px);
   content: "";
   height: 20px;
   width: 20px;
@@ -850,7 +886,7 @@ body {
 @media (min-width: 990px) and (max-width: 1279px) {
   /* line 117, ../../src/css/application/modules/masthead.scss */
   .masthead {
-    height: 407px;
+    height: 477px;
   }
   /* line 120, ../../src/css/application/modules/masthead.scss */
   .masthead .title {
@@ -862,6 +898,31 @@ body {
     margin-top: 145px;
   }
   /* line 128, ../../src/css/application/modules/masthead.scss */
+  .masthead .to {
+    line-height: 1.8rem;
+  }
+}
+@media (min-width: 1280px) {
+  /* line 135, ../../src/css/application/modules/masthead.scss */
+  .masthead {
+    height: 477px;
+  }
+  /* line 137, ../../src/css/application/modules/masthead.scss */
+  .masthead .container {
+    width: 1160px;
+    margin: 0 auto;
+  }
+  /* line 142, ../../src/css/application/modules/masthead.scss */
+  .masthead .title {
+    font-size: 2.4rem;
+    line-height: 3rem;
+    width: 410px;
+    height: 110px;
+    text-align: initial;
+    margin-top: 145px;
+    padding-left: 2.5%;
+  }
+  /* line 151, ../../src/css/application/modules/masthead.scss */
   .masthead .to {
     line-height: 1.8rem;
   }
@@ -1006,6 +1067,43 @@ body {
     margin-right: 0;
   }
 }
+@media (min-width: 1280px) {
+  /* line 122, ../../src/css/application/modules/howto.scss */
+  .howto {
+    height: 500px;
+  }
+  /* line 124, ../../src/css/application/modules/howto.scss */
+  .howto .title {
+    font-size: 2.4rem;
+  }
+  /* line 127, ../../src/css/application/modules/howto.scss */
+  .howto .item-title {
+    text-align: center;
+    white-space: normal;
+  }
+  /* line 131, ../../src/css/application/modules/howto.scss */
+  .howto .list {
+    width: 1160px;
+    margin: 0 auto;
+    height: 382px;
+  }
+  /* line 136, ../../src/css/application/modules/howto.scss */
+  .howto .item {
+    width: 32%;
+    max-width: 370px;
+    height: 382px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  /* line 143, ../../src/css/application/modules/howto.scss */
+  .howto .item:first-child {
+    margin-left: 0;
+  }
+  /* line 146, ../../src/css/application/modules/howto.scss */
+  .howto .item:last-child {
+    margin-right: 0;
+  }
+}
 /* line 1, ../../src/css/application/modules/highlights.scss */
 .highlights {
   width: 100vw;
@@ -1085,6 +1183,24 @@ body {
     display: inline-block;
     width: 230px;
     height: 230px;
+    margin: .6%;
+  }
+}
+@media (min-width: 1280px) {
+  /* line 77, ../../src/css/application/modules/highlights.scss */
+  .highlights {
+    height: 415px;
+  }
+  /* line 79, ../../src/css/application/modules/highlights.scss */
+  .highlights .list {
+    width: 1160px;
+    margin: 0 auto;
+  }
+  /* line 83, ../../src/css/application/modules/highlights.scss */
+  .highlights .item {
+    display: inline-block;
+    width: 274px;
+    height: 274px;
     margin: .6%;
   }
 }
@@ -1228,6 +1344,41 @@ body {
     font-size: 1.8rem;
   }
   /* line 114, ../../src/css/application/modules/signup.scss */
+  .signup .link {
+    font-size: 1.8rem;
+  }
+}
+@media (min-width: 1280px) {
+  /* line 120, ../../src/css/application/modules/signup.scss */
+  .signup {
+    height: 680px;
+  }
+  /* line 122, ../../src/css/application/modules/signup.scss */
+  .signup .signup-common, .signup .signup-professional {
+    margin: 40px 10% 0;
+  }
+  /* line 126, ../../src/css/application/modules/signup.scss */
+  .signup .signup-common {
+    background-size: 138px 215px;
+    padding-left: 285px;
+  }
+  /* line 131, ../../src/css/application/modules/signup.scss */
+  .signup .signup-professional {
+    background-size: 210px 180px;
+    background-position: right 0;
+    padding-left: 0;
+    padding-right: 330px;
+    text-align: right;
+  }
+  /* line 139, ../../src/css/application/modules/signup.scss */
+  .signup .title {
+    font-size: 2.4rem;
+  }
+  /* line 142, ../../src/css/application/modules/signup.scss */
+  .signup .desc {
+    font-size: 1.8rem;
+  }
+  /* line 145, ../../src/css/application/modules/signup.scss */
   .signup .link {
     font-size: 1.8rem;
   }
@@ -1403,6 +1554,28 @@ body {
     display: none;
   }
 }
+@media (min-width: 1280px) {
+  /* line 148, ../../src/css/application/modules/contact.scss */
+  .contact {
+    min-height: 270px;
+  }
+  /* line 150, ../../src/css/application/modules/contact.scss */
+  .contact .title {
+    font-size: 2.4rem;
+  }
+  /* line 153, ../../src/css/application/modules/contact.scss */
+  .contact .desc {
+    font-size: 1.8rem;
+  }
+  /* line 156, ../../src/css/application/modules/contact.scss */
+  .contact .btn-interest {
+    display: block;
+  }
+  /* line 159, ../../src/css/application/modules/contact.scss */
+  .contact .form {
+    display: none;
+  }
+}
 /* line 1, ../../src/css/application/modules/foot.scss */
 .foot {
   width: 100vw;
@@ -1516,5 +1689,31 @@ body {
   /* line 91, ../../src/css/application/modules/foot.scss */
   .foot {
     height: 140px;
+  }
+}
+@media (min-width: 1280px) {
+  /* line 96, ../../src/css/application/modules/foot.scss */
+  .foot {
+    position: relative;
+    height: 67px;
+  }
+  /* line 99, ../../src/css/application/modules/foot.scss */
+  .foot .list-socials {
+    position: absolute;
+    right: 8%;
+    top: 0;
+  }
+  /* line 104, ../../src/css/application/modules/foot.scss */
+  .foot .site-map {
+    margin: 20px auto;
+    display: block;
+    width: 560px;
+  }
+  /* line 109, ../../src/css/application/modules/foot.scss */
+  .foot .list-businesses {
+    position: absolute;
+    top: 0;
+    left: 8%;
+    width: 200px;
   }
 }

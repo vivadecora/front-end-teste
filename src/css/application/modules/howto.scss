@@ -118,3 +118,34 @@
         }
     }
 }
+@include wide {
+    .howto{
+        height: 500px;
+        .title{
+            font-size: 2.4rem;
+        }
+        .item-title{
+            text-align: center;
+            white-space: normal;
+        }
+        .list{
+            width: 1160px;
+            margin: 0 auto;
+            height: 382px;
+        }
+        .item{
+            width: 32%; 
+            max-width: 370px;
+            height: 382px; 
+            margin-left: 5px;
+            margin-right: 5px;
+
+            &:first-child{
+                margin-left: 0;
+            }
+            &:last-child{
+                margin-right: 0;
+            }
+        }
+    }
+}

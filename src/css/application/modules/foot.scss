@@ -92,3 +92,25 @@
         height: 140px;
     }
 }
+@include wide{
+    .foot{
+        position: relative;
+        height: 67px;
+        .list-socials{
+            position: absolute;
+            right: 8%;
+            top: 0;
+        }
+        .site-map{
+            margin: 20px auto;
+            display: block;
+            width: 560px;
+        }
+        .list-businesses{
+            position: absolute;
+            top: 0;
+            left: 8%;
+            width: 200px;
+        }
+    }
+}

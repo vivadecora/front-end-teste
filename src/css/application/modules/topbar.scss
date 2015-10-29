@@ -107,3 +107,36 @@
         }
     }   
 }
+
+@include wide{
+    .topbar{
+        width: 1160px;
+        height: 80px;
+        background-color: transparent;
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+
+        
+
+        .subtitle{
+            color: $white;
+            text-align: initial;
+        }
+        .main-logo{
+            text-align: initial;
+        }
+        .title-link{
+            width: 147px;
+            height: 43px;
+            background: transparent image-url('modules/topbar/vivadecora.svg') 0 0 no-repeat;
+        }
+        .navigation{
+            display: block;
+            right: 20px;
+        }
+    }   
+}

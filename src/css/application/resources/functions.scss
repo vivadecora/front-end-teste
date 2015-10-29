@@ -14,6 +14,12 @@
   }
 }
 
+@mixin wide{
+  @media(min-width: 1280px ){
+    @content;
+  }
+}
+
 
 @function strip-units($number) {
    @return $number / ($number * 0 + 1);
