@@ -108,7 +108,25 @@
         padding: 5%;
     }
 }
-@media(min-width: $tablet) and (max-width: 989px){
+@include tablet{
+    .contact{
+        min-height: 270px;
+        .title{
+            font-size: 2.4rem;
+        }
+        .desc{
+            font-size: 1.8rem;
+        }
+        .btn-interest{
+            display: block;
+        }
+        .form{
+            display: none;
+        }
+    }
+}
+
+@include desktop{
     .contact{
         min-height: 270px;
         .title{

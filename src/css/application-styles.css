@@ -664,6 +664,37 @@ body {
     display: block;
   }
 }
+@media (min-width: 990px) and (max-width: 1279px) {
+  /* line 84, ../../src/css/application/modules/topbar.scss */
+  .topbar {
+    height: 80px;
+    background-color: transparent;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+  }
+  /* line 92, ../../src/css/application/modules/topbar.scss */
+  .topbar .subtitle {
+    color: #fff;
+    text-align: initial;
+  }
+  /* line 96, ../../src/css/application/modules/topbar.scss */
+  .topbar .main-logo {
+    text-align: initial;
+  }
+  /* line 99, ../../src/css/application/modules/topbar.scss */
+  .topbar .title-link {
+    width: 147px;
+    height: 43px;
+    background: transparent url('../imgs/modules/topbar/vivadecora.svg?1445999602') 0 0 no-repeat;
+  }
+  /* line 104, ../../src/css/application/modules/topbar.scss */
+  .topbar .navigation {
+    display: block;
+    right: 20px;
+  }
+}
 /* line 1, ../../src/css/application/modules/masthead.scss */
 .masthead {
   width: 100vw;
@@ -816,6 +847,25 @@ body {
     line-height: 1.8rem;
   }
 }
+@media (min-width: 990px) and (max-width: 1279px) {
+  /* line 117, ../../src/css/application/modules/masthead.scss */
+  .masthead {
+    height: 407px;
+  }
+  /* line 120, ../../src/css/application/modules/masthead.scss */
+  .masthead .title {
+    font-size: 2.4rem;
+    line-height: 3rem;
+    width: 410px;
+    height: 110px;
+    text-align: initial;
+    margin-top: 145px;
+  }
+  /* line 128, ../../src/css/application/modules/masthead.scss */
+  .masthead .to {
+    line-height: 1.8rem;
+  }
+}
 /* line 1, ../../src/css/application/modules/howto.scss */
 .howto {
   width: 100vw;
@@ -870,10 +920,9 @@ body {
 /* line 45, ../../src/css/application/modules/howto.scss */
 .howto .picture {
   display: block;
-  padding-left: 11%;
-  padding-right: 11%;
+  margin: 0 auto;
 }
-/* line 50, ../../src/css/application/modules/howto.scss */
+/* line 49, ../../src/css/application/modules/howto.scss */
 .howto .desc {
   font-weight: 300;
   font-size: 1.4rem;
@@ -885,28 +934,29 @@ body {
 }
 
 @media (min-width: 768px) and (max-width: 989px) {
-  /* line 62, ../../src/css/application/modules/howto.scss */
+  /* line 61, ../../src/css/application/modules/howto.scss */
   .howto {
     height: 500px;
   }
-  /* line 64, ../../src/css/application/modules/howto.scss */
+  /* line 63, ../../src/css/application/modules/howto.scss */
   .howto .title {
     font-size: 2.4rem;
   }
-  /* line 67, ../../src/css/application/modules/howto.scss */
+  /* line 66, ../../src/css/application/modules/howto.scss */
   .howto .item-title {
     text-align: center;
     white-space: normal;
   }
-  /* line 71, ../../src/css/application/modules/howto.scss */
+  /* line 70, ../../src/css/application/modules/howto.scss */
   .howto .list {
     padding-left: 1.5%;
     padding-right: 1.5%;
     height: 382px;
   }
-  /* line 76, ../../src/css/application/modules/howto.scss */
+  /* line 75, ../../src/css/application/modules/howto.scss */
   .howto .item {
-    width: 240px;
+    width: 32%;
+    min-width: 240px;
     height: 382px;
     margin-left: 5px;
     margin-right: 5px;
@@ -916,6 +966,42 @@ body {
     margin-left: 0;
   }
   /* line 85, ../../src/css/application/modules/howto.scss */
+  .howto .item:last-child {
+    margin-right: 0;
+  }
+}
+@media (min-width: 990px) and (max-width: 1279px) {
+  /* line 92, ../../src/css/application/modules/howto.scss */
+  .howto {
+    height: 500px;
+  }
+  /* line 94, ../../src/css/application/modules/howto.scss */
+  .howto .title {
+    font-size: 2.4rem;
+  }
+  /* line 97, ../../src/css/application/modules/howto.scss */
+  .howto .item-title {
+    text-align: center;
+    white-space: normal;
+  }
+  /* line 101, ../../src/css/application/modules/howto.scss */
+  .howto .list {
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    height: 382px;
+  }
+  /* line 106, ../../src/css/application/modules/howto.scss */
+  .howto .item {
+    width: 32%;
+    height: 382px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  /* line 112, ../../src/css/application/modules/howto.scss */
+  .howto .item:first-child {
+    margin-left: 0;
+  }
+  /* line 115, ../../src/css/application/modules/howto.scss */
   .howto .item:last-child {
     margin-right: 0;
   }
@@ -967,21 +1053,39 @@ body {
 }
 
 @media (min-width: 768px) and (max-width: 989px) {
-  /* line 44, ../../src/css/application/modules/highlights.scss */
+  /* line 45, ../../src/css/application/modules/highlights.scss */
   .highlights {
     height: 272px;
   }
-  /* line 46, ../../src/css/application/modules/highlights.scss */
+  /* line 47, ../../src/css/application/modules/highlights.scss */
   .highlights .list {
     width: 704px;
     margin: 0 auto;
   }
-  /* line 50, ../../src/css/application/modules/highlights.scss */
+  /* line 51, ../../src/css/application/modules/highlights.scss */
   .highlights .item {
     display: inline-block;
     width: 160px;
     height: 160px;
     margin: 1%;
+  }
+}
+@media (min-width: 990px) and (max-width: 1279px) {
+  /* line 61, ../../src/css/application/modules/highlights.scss */
+  .highlights {
+    height: 357px;
+  }
+  /* line 63, ../../src/css/application/modules/highlights.scss */
+  .highlights .list {
+    width: 980px;
+    margin: 0 auto;
+  }
+  /* line 67, ../../src/css/application/modules/highlights.scss */
+  .highlights .item {
+    display: inline-block;
+    width: 230px;
+    height: 230px;
+    margin: .6%;
   }
 }
 /* line 1, ../../src/css/application/modules/signup.scss */
@@ -1089,6 +1193,41 @@ body {
     font-size: 1.8rem;
   }
   /* line 83, ../../src/css/application/modules/signup.scss */
+  .signup .link {
+    font-size: 1.8rem;
+  }
+}
+@media (min-width: 990px) and (max-width: 1279px) {
+  /* line 89, ../../src/css/application/modules/signup.scss */
+  .signup {
+    height: 680px;
+  }
+  /* line 91, ../../src/css/application/modules/signup.scss */
+  .signup .signup-common, .signup .signup-professional {
+    margin: 40px 10% 0;
+  }
+  /* line 95, ../../src/css/application/modules/signup.scss */
+  .signup .signup-common {
+    background-size: 138px 215px;
+    padding-left: 285px;
+  }
+  /* line 100, ../../src/css/application/modules/signup.scss */
+  .signup .signup-professional {
+    background-size: 210px 180px;
+    background-position: right 0;
+    padding-left: 0;
+    padding-right: 330px;
+    text-align: right;
+  }
+  /* line 108, ../../src/css/application/modules/signup.scss */
+  .signup .title {
+    font-size: 2.4rem;
+  }
+  /* line 111, ../../src/css/application/modules/signup.scss */
+  .signup .desc {
+    font-size: 1.8rem;
+  }
+  /* line 114, ../../src/css/application/modules/signup.scss */
   .signup .link {
     font-size: 1.8rem;
   }
@@ -1242,6 +1381,28 @@ body {
     display: none;
   }
 }
+@media (min-width: 990px) and (max-width: 1279px) {
+  /* line 130, ../../src/css/application/modules/contact.scss */
+  .contact {
+    min-height: 270px;
+  }
+  /* line 132, ../../src/css/application/modules/contact.scss */
+  .contact .title {
+    font-size: 2.4rem;
+  }
+  /* line 135, ../../src/css/application/modules/contact.scss */
+  .contact .desc {
+    font-size: 1.8rem;
+  }
+  /* line 138, ../../src/css/application/modules/contact.scss */
+  .contact .btn-interest {
+    display: block;
+  }
+  /* line 141, ../../src/css/application/modules/contact.scss */
+  .contact .form {
+    display: none;
+  }
+}
 /* line 1, ../../src/css/application/modules/foot.scss */
 .foot {
   width: 100vw;
@@ -1347,6 +1508,12 @@ body {
 
 @media (min-width: 768px) and (max-width: 989px) {
   /* line 86, ../../src/css/application/modules/foot.scss */
+  .foot {
+    height: 140px;
+  }
+}
+@media (min-width: 990px) and (max-width: 1279px) {
+  /* line 91, ../../src/css/application/modules/foot.scss */
   .foot {
     height: 140px;
   }

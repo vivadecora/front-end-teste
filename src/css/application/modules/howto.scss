@@ -44,8 +44,7 @@
     }
     .picture{
         display: block;
-        padding-left: 11%;
-        padding-right: 11%;
+        margin: 0 auto;
     }
     .desc{
         font-weight: 300;
@@ -58,7 +57,7 @@
     }
 }
 
-@media(min-width: $tablet) and (max-width: 989px){
+@include tablet {
     .howto{
         height: 500px;
         .title{
@@ -74,7 +73,38 @@
             height: 382px;
         }
         .item{
-            width: 240px;
+            width: 32%;
+            min-width: 240px;
+            height: 382px; 
+            margin-left: 5px;
+            margin-right: 5px;
+
+            &:first-child{
+                margin-left: 0;
+            }
+            &:last-child{
+                margin-right: 0;
+            }
+        }
+    }
+}
+@include desktop {
+    .howto{
+        height: 500px;
+        .title{
+            font-size: 2.4rem;
+        }
+        .item-title{
+            text-align: center;
+            white-space: normal;
+        }
+        .list{
+            padding-left: 1.5%;
+            padding-right: 1.5%;
+            height: 382px;
+        }
+        .item{
+            width: 32%; 
             height: 382px; 
             margin-left: 5px;
             margin-right: 5px;

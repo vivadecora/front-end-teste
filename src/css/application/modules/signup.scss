@@ -54,7 +54,7 @@
     }
 }
 
-@media(min-width: $tablet) and (max-width: 989px){
+@include tablet {
     .signup{
         height: 680px;
         %sign-tablet {
@@ -68,6 +68,37 @@
         }
         .signup-professional{
             @extend %sign-tablet;
+            background-size: 210px 180px;
+            background-position: right 0;
+            padding-left: 0;
+            padding-right: 330px;
+            text-align: right;
+        }
+        .title{
+            font-size: 2.4rem;
+        }
+        .desc{
+            font-size: 1.8rem;
+        }
+        .link{
+            font-size: 1.8rem;
+        }
+    }
+}
+@include desktop {
+    .signup{
+        height: 680px;
+        %sign-desktop {
+            margin: 40px 10% 0;
+        }
+
+        .signup-common{
+            @extend %sign-desktop;
+            background-size: 138px 215px;
+            padding-left: 285px;
+        }
+        .signup-professional{
+            @extend %sign-desktop;
             background-size: 210px 180px;
             background-position: right 0;
             padding-left: 0;

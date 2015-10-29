@@ -82,7 +82,12 @@
         display: block;
     }
 }
-@media(min-width: $tablet) and (max-width: 989px){
+@include tablet{
+    .foot{
+        height: 140px;
+    }
+}
+@include desktop{
     .foot{
         height: 140px;
     }

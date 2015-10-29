@@ -40,7 +40,8 @@
         width: 100%;
     }
 }
-@media(min-width: $tablet) and (max-width: 989px){
+
+@include tablet {
     .highlights{
         height: 272px;
         .list{
@@ -52,6 +53,22 @@
             width: 160px;
             height: 160px;
             margin: 1%;
+        }
+
+    }
+}
+@include desktop {
+    .highlights{
+        height: 357px;
+        .list{
+            width: 980px;
+            margin: 0 auto;
+        }
+        .item{
+            display: inline-block;
+            width: 230px;
+            height: 230px;
+            margin: .6%;
         }
 
     }

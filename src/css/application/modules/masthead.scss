@@ -95,7 +95,7 @@
     }
 }
 
-@media(min-width: $tablet) and (max-width: 989px){
+@include tablet{
     .masthead{
         height: 407px;
 
@@ -110,5 +110,24 @@
         .to{
             line-height: 1.8rem;
         }
+    }
+}
+
+@include desktop{
+    .masthead{
+        height: 407px;
+
+        .title{
+            font-size: 2.4rem;
+            line-height: 3rem;
+            width: 410px;
+            height: 110px;
+            text-align: initial;
+            margin-top: 145px;
+        }
+        .to{
+            line-height: 1.8rem;
+        }
+        
     }
 }

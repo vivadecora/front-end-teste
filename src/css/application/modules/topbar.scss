@@ -53,7 +53,7 @@
     }
 }
 
-@media(min-width: $tablet) and (max-width: 989px){
+@include tablet {
     .topbar{
         height: 80px;
         background-color: transparent;
@@ -78,4 +78,32 @@
             display: block;
         }
     }    
+}
+
+@include desktop{
+    .topbar{
+        height: 80px;
+        background-color: transparent;
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        left: 0;
+
+        .subtitle{
+            color: $white;
+            text-align: initial;
+        }
+        .main-logo{
+            text-align: initial;
+        }
+        .title-link{
+            width: 147px;
+            height: 43px;
+            background: transparent image-url('modules/topbar/vivadecora.svg') 0 0 no-repeat;
+        }
+        .navigation{
+            display: block;
+            right: 20px;
+        }
+    }   
 }
