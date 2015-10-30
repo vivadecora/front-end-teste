@@ -18,7 +18,17 @@ define([
         },
         behaviors: {},
         initialize: function(){},
-        onShow: function () {}
+        onShow: function () {
+            var me=this;
+
+            $(window).scroll(function(){
+                var topbar = me.$el.find('.topbar'),
+                scroll = $(window).scrollTop();
+
+                if (scroll >= 80) topbar.addClass('fixed');
+                else topbar.removeClass('fixed');
+            });
+        }
     }));
 
     return Default;

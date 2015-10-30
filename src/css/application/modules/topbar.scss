@@ -120,8 +120,6 @@
         right: 0;
         margin: 0 auto;
 
-        
-
         .subtitle{
             color: $white;
             text-align: initial;
@@ -137,6 +135,31 @@
         .navigation{
             display: block;
             right: 20px;
+        }
+
+        &.fixed {
+            position: fixed;
+            top:0; 
+            left:0;
+            width: 100%;
+            height: 82px;
+            background-color: $white;
+
+            .subtitle{
+                color: $grey-thin;
+            }
+
+            .title-link{
+                background: transparent image-url('modules/topbar/vivadecora.png') 0 0 no-repeat;
+            }
+
+            .navigation{
+                right: 10%;
+            }
+
+            .link{
+                color: $grey;
+            }
         }
     }   
 }

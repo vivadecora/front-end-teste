@@ -62,9 +62,8 @@ define([
 
             },
             onShow: function(){
-                
                 this.formValidation();
-            },
+            }
         })
     );
 

@@ -710,25 +710,50 @@ body {
     right: 0;
     margin: 0 auto;
   }
-  /* line 125, ../../src/css/application/modules/topbar.scss */
+  /* line 123, ../../src/css/application/modules/topbar.scss */
   .topbar .subtitle {
     color: #fff;
     text-align: initial;
   }
-  /* line 129, ../../src/css/application/modules/topbar.scss */
+  /* line 127, ../../src/css/application/modules/topbar.scss */
   .topbar .main-logo {
     text-align: initial;
   }
-  /* line 132, ../../src/css/application/modules/topbar.scss */
+  /* line 130, ../../src/css/application/modules/topbar.scss */
   .topbar .title-link {
     width: 147px;
     height: 43px;
     background: transparent url('../imgs/modules/topbar/vivadecora.svg?1445999602') 0 0 no-repeat;
   }
-  /* line 137, ../../src/css/application/modules/topbar.scss */
+  /* line 135, ../../src/css/application/modules/topbar.scss */
   .topbar .navigation {
     display: block;
     right: 20px;
+  }
+  /* line 140, ../../src/css/application/modules/topbar.scss */
+  .topbar.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 82px;
+    background-color: #fff;
+  }
+  /* line 148, ../../src/css/application/modules/topbar.scss */
+  .topbar.fixed .subtitle {
+    color: #aaa;
+  }
+  /* line 152, ../../src/css/application/modules/topbar.scss */
+  .topbar.fixed .title-link {
+    background: transparent url('../imgs/modules/topbar/vivadecora.png?1445904428') 0 0 no-repeat;
+  }
+  /* line 156, ../../src/css/application/modules/topbar.scss */
+  .topbar.fixed .navigation {
+    right: 10%;
+  }
+  /* line 160, ../../src/css/application/modules/topbar.scss */
+  .topbar.fixed .link {
+    color: #666;
   }
 }
 /* line 1, ../../src/css/application/modules/masthead.scss */
@@ -1553,27 +1578,39 @@ body {
   .contact .form {
     display: none;
   }
+  /* line 144, ../../src/css/application/modules/contact.scss */
+  .contact .fieldset {
+    width: 310px;
+    margin: 0 auto;
+    display: block;
+  }
 }
 @media (min-width: 1280px) {
-  /* line 148, ../../src/css/application/modules/contact.scss */
+  /* line 153, ../../src/css/application/modules/contact.scss */
   .contact {
     min-height: 270px;
   }
-  /* line 150, ../../src/css/application/modules/contact.scss */
+  /* line 155, ../../src/css/application/modules/contact.scss */
   .contact .title {
     font-size: 2.4rem;
   }
-  /* line 153, ../../src/css/application/modules/contact.scss */
+  /* line 158, ../../src/css/application/modules/contact.scss */
   .contact .desc {
     font-size: 1.8rem;
   }
-  /* line 156, ../../src/css/application/modules/contact.scss */
+  /* line 161, ../../src/css/application/modules/contact.scss */
   .contact .btn-interest {
     display: block;
   }
-  /* line 159, ../../src/css/application/modules/contact.scss */
+  /* line 164, ../../src/css/application/modules/contact.scss */
   .contact .form {
     display: none;
+  }
+  /* line 167, ../../src/css/application/modules/contact.scss */
+  .contact .fieldset {
+    width: 310px;
+    margin: 0 auto;
+    display: block;
   }
 }
 /* line 1, ../../src/css/application/modules/foot.scss */
