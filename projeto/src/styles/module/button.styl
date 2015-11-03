@@ -1,0 +1,54 @@
+.btn
+	color: $white
+	border: none
+	display: inline-block
+	font-weight: 400
+	width: 145px
+	height: 38px
+	padding: 10px
+	text-align: center
+	text-decoration: none
+	position: relative
+	radius(3px)
+
+	&.facebook
+		background: $mariner
+		box-shadow: 0 2px #203767
+
+		&:active
+			box-shadow: none
+			background: #203767
+			top: 2px
+
+		&:before
+			content: "\f10d"
+			font-family: "Viva icons"
+			position: absolute
+			left: 20px
+
+	&.red
+		background: $persian-red
+		box-shadow:	0 2px #a40216
+
+		+media-query( all, min-width $phone )
+			float: left
+
+
+		&:active
+			box-shadow: none
+			background: #a40216
+			top: 2px
+
+	&.mail
+		&:before
+			content: "\f113"
+			font-family: "Viva icons"
+			position: absolute
+			left: 20px
+
+.link
+	font-size: 14px
+	color: $scooter
+	padding: 0
+	text-align: left
+	width: 100%

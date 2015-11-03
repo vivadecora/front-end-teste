@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="512"
+   height="512"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg2"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="styler-plus.svg">
+  <metadata
+     id="metadata15">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>left</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1280"
+     inkscape:window-height="751"
+     id="namedview13"
+     showgrid="false"
+     inkscape:showpageshadow="false"
+     inkscape:zoom="0.9140625"
+     inkscape:cx="112.01622"
+     inkscape:cy="259.61582"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="garbage" />
+  <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title4">left</title>
+  <desc
+     id="desc6">Created with Sketch.</desc>
+  <defs
+     id="defs8" />
+  <g
+     sketch:type="MSPage"
+     id="Page-1"
+     style="fill:none;fill-rule:evenodd;stroke:none;stroke-width:1"
+     transform="matrix(25.6,0,0,25.6,-153.6,-153.6)">
+    <g
+       sketch:type="MSArtboardGroup"
+       id="garbage"
+       style="fill:#666666">
+      <path
+         style="fill:#666666;fill-rule:evenodd;stroke:none;stroke-width:1"
+         d="M 240.67383 11 C 235.81549 11 231.10869 13.003546 227.77539 16.509766 L 95.076172 155.88672 C 94.182937 156.82317 93.398638 157.89139 92.679688 159.13281 L 4.8808594 251.33984 C 1.7436306 254.65008 0 258.96209 0 263.51367 L 0 470.27148 C 0 480.04969 7.9949907 487.97656 17.798828 487.97656 L 283.20117 487.97656 C 289.47563 487.97656 295.2271 484.71025 298.42969 479.39648 L 317.79688 459.05664 C 337.75312 484.38421 368.36277 501 403.06836 501 C 463.11142 501 512 452.15267 512 392.11133 C 512 332.07001 463.11142 283.22266 403.06836 283.22266 C 398.99432 283.22266 395.11715 283.98421 391.17383 284.41992 L 391.17383 168.06055 C 391.17383 163.50899 389.43025 159.19693 386.29297 155.88672 L 253.5918 16.509766 C 250.2585 13.003544 245.55396 11 240.67383 11 z M 240.67383 54.425781 L 351.93555 171.28516 L 285.90234 240.625 L 174.63867 123.78711 L 240.67383 54.425781 z M 150.5 149.87695 L 264.85547 270.00391 C 264.87725 271.37581 265.05274 272.74744 265.40039 274.09766 L 265.40039 452.58789 L 35.576172 452.58789 L 35.576172 270.57031 L 150.5 149.87695 z M 355.5957 218.91211 L 355.5957 294.56836 C 330.3018 306.91637 310.65163 328.60707 300.97852 355.30664 L 300.97852 276.25391 L 355.5957 218.91211 z M 403.06836 305 C 451.10717 305 490.19141 344.06955 490.19141 392.11133 C 490.19141 440.15311 451.10717 479.22266 403.06836 479.22266 C 355.00776 479.22266 315.92383 440.15311 315.92383 392.11133 C 315.92383 344.06955 355.00776 305 403.06836 305 z M 386.40234 337.66602 L 386.40234 375.58203 L 348.58008 375.58203 L 348.58008 408.61914 L 386.40234 408.61914 L 386.40234 446.55469 L 419.69141 446.55469 L 419.69141 408.61914 L 457.51172 408.61914 L 457.51172 375.58203 L 419.69141 375.58203 L 419.69141 337.66602 L 386.40234 337.66602 z "
+         transform="matrix(0.0390625,0,0,0.0390625,6,6)"
+         id="Fill-1" />
+    </g>
+  </g>
+</svg>
