@@ -1,0 +1,13 @@
+/* fonts */
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,300italic);
+
+@font-face {
+    font-family: 'viva-icons';
+    src: url('viva-icons.eot?55669104');
+    src: url('viva-icons.eot?55669104#iefix') format('embedded-opentype'),
+       url('viva-icons.woff?55669104') format('woff'),
+       url('viva-icons.ttf?55669104') format('truetype'),
+       url('viva-icons.svg?55669104#viva-icons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

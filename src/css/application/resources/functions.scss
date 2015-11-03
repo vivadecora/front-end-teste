@@ -1,0 +1,103 @@
+@mixin tablet{
+  $tablet: '768px','989px';
+  
+  @media(min-width: #{ nth($tablet, 1) } ) and (max-width: #{ nth($tablet, 2) } ){
+    @content;
+  }
+}
+
+@mixin desktop{
+  $desktop: '990px','1279px';
+  
+  @media(min-width: #{ nth($desktop, 1) } ) and (max-width: #{ nth($desktop, 2) } ){
+    @content;
+  }
+}
+
+@mixin wide{
+  @media(min-width: 1280px ){
+    @content;
+  }
+}
+
+
+@function strip-units($number) {
+   @return $number / ($number * 0 + 1);
+}
+
+@function rem($number) {
+   $number: strip-units($number);
+   $number: $number / 16;
+   @return #{$number}rem;
+}
+
+@mixin fs($target) {
+  $rem: ($target / 16);
+  font-size: #{$target}px;
+  font-size: #{$rem}rem;
+}
+
+@function w($value) {
+  $result: 100% * ($value / 1700);
+  @return #{$result};
+}
+
+@function wContainer($value, $container) {
+  $result: 100% * ($value / $container);
+  @return #{$result};
+}
+
+@mixin bgImg($curImg, $x, $y) {
+  width: image-width($curImg);
+  height: image-height($curImg);
+
+  background: image-url($curImg) $x  $y no-repeat;
+}
+
+@mixin containImg($img){
+  //-ms-behavior: url(../scripts/vendors/background-size-polyfill/backgroundsize.min.htc);
+  zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/assets/images/#{$img}', sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/assets/images/#{$img}', sizingMethod='scale')";
+}
+
+@mixin mediaQuery($animation-name) {
+  @-webkit-keyframes #{$animation-name} {
+    @content;
+  }
+  @-moz-keyframes #{$animation-name} {
+    @content;
+  }
+  @-ms-keyframes #{$animation-name} {
+    @content;
+  }
+  @-o-keyframes #{$animation-name} {
+    @content;
+  }
+  @keyframes #{$animation-name} {
+    @content;
+  }
+}
+
+@mixin zoom ($value) {
+           -webkit-transform: scale(#{$value});
+    -webkit-transform-origin: 0 0;
+
+           -moz-transform: scale(#{$value});
+    -moz-transform-origin: 0 0;
+
+           -o-transform: scale(#{$value});
+    -o-transform-origin: 0 0;
+
+           transform: scale(#{$value});
+    transform-origin: 0 0;
+}
+
+@mixin height-percentage ($base) {
+    &:after {
+        content: '';
+        padding-bottom: ($base/16) + rem;
+        display: block;
+    }
+
+}

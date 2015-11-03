@@ -1,0 +1,15 @@
+#general
+.DS_Store
+.idea
+*.log
+.bak
+*.pid
+*.seed
+.grunt
+
+#front
+node_modules/
+npm-debug.log
+src/js/vendors/
+.tmp/
+.sass-cache/
