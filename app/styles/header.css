@@ -1,0 +1,244 @@
+/* font  */
+/* media queries */
+/* files variables */
+/* font colors */
+/* font sizes */
+.header {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff; }
+
+.header p {
+  font-size: 10px;
+  color: #aaaaaa;
+  text-align: center;
+  margin: 5px auto; }
+.header .logo {
+  display: block;
+  text-indent: -9999px;
+  width: 119px;
+  height: 24px;
+  background: url(../images/svg/imported-layers.svg);
+  background-size: 119px 24px;
+  margin: 18px 100px 18px 101px; }
+.header .container {
+  width: 320px;
+  height: 317px;
+  background: url(../images/bitmap-copy.png) no-repeat center center;
+  position: relative;
+  margin: 0 auto; }
+  .header .container .content {
+    background: rgba(68, 177, 215, 0.69);
+    width: 100%;
+    height: 304px; }
+    .header .container .content p {
+      font-size: 14px;
+      font-weight: 700;
+      color: #ffffff; }
+    .header .container .content .content-text-description {
+      padding: 28px 10px 148px 10px; }
+    .header .container .content .content-social .content-text {
+      margin: 0 0 0 50px;
+      text-align: left;
+      font-weight: normal;
+      margin-bottom: 20px; }
+    .header .container .content .content-social .content-social-box {
+      text-align: center; }
+      .header .container .content .content-social .content-social-box .content-btn {
+        color: #ffffff;
+        text-transform: capitalize;
+        padding: 8px 16px 8px 0;
+        margin-left: 10px; }
+        .header .container .content .content-social .content-social-box .content-btn.facebook {
+          background-color: #3b5998;
+          box-shadow: 0 2px 0px 0px #a40216;
+          -moz-box-shadow: 0 2px 0px 0px #203767;
+          -webkit-box-shadow: 0 2px 0px 0px #203767;
+          border-radius: 3px;
+          -moz-border-radius: 3px;
+          -webkit-border-radius: 3px; }
+          .header .container .content .content-social .content-social-box .content-btn.facebook .box-facebook {
+            padding: 8px; }
+        .header .container .content .content-social .content-social-box .content-btn.email {
+          background-color: #cd2f27;
+          box-shadow: 0 2px 0px 0px #a40216;
+          -moz-box-shadow: 0 2px 0px 0px #a40216;
+          -webkit-box-shadow: 0 2px 0px 0px #a40216;
+          border-radius: 3px;
+          -moz-border-radius: 3px;
+          -webkit-border-radius: 3px; }
+          .header .container .content .content-social .content-social-box .content-btn.email .letter {
+            padding: 14px; }
+  .header .container .arrow-box {
+    position: relative; }
+  .header .container .arrow-box:after {
+    top: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: transparent;
+    border-top-color: rgba(68, 177, 215, 0.69);
+    border-width: 13px;
+    margin-left: -13px; }
+
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+  .header {
+    width: 100%;
+    position: relative; }
+    .header p {
+      font-size: 10px !important;
+      color: #aaaaaa;
+      text-align: left;
+      margin: 0; }
+    .header .description {
+      padding: 6px 0 0 19px; }
+    .header .content-text-description {
+      font-size: 24px !important;
+      font-weight: normal !important;
+      width: 410px;
+      line-height: 30px;
+      padding: 0 !important;
+      margin: 30px 0 0 20px; }
+    .header .logo {
+      width: 147px;
+      height: 43px;
+      background: url(../images/logo-chamada.png) no-repeat center center;
+      margin: 20px 0 14px 19px;
+      text-indent: 0;
+      float: left; }
+    .header .anchors ul {
+      margin: 30px 0px 0px 190px; }
+      .header .anchors ul li {
+        float: left;
+        margin: 0 10px 0 0;
+        font-size: 12px;
+        font-family: "Roboto-Regular", sans-serif;
+        color: #ffffff; }
+    .header .container {
+      background: url(../images/bitmap_tb.png) no-repeat center center;
+      width: 768px;
+      height: 408px;
+      position: relative;
+      margin: 0 auto; }
+      .header .container .content {
+        background: rgba(68, 177, 215, 0.69);
+        width: 100%;
+        height: 396px; }
+      .header .container .content-social .content-text {
+        margin: 70px 0 0 20px !important;
+        font-size: 18px !important;
+        text-align: left;
+        font-weight: normal;
+        margin-bottom: 20px; }
+      .header .container .content-social .content-social-box {
+        text-align: left !important;
+        margin: 20px 0 0 10px; } }
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .header {
+    width: 100%;
+    position: relative; }
+    .header p {
+      font-size: 10px !important;
+      color: #aaaaaa;
+      text-align: left;
+      margin: 0; }
+    .header .description {
+      padding: 6px 0 0 19px; }
+    .header .content-text-description {
+      font-size: 24px !important;
+      font-weight: normal !important;
+      width: 410px;
+      line-height: 30px;
+      padding: 0 !important;
+      margin: 30px 0 0 20px; }
+    .header .logo {
+      width: 147px;
+      height: 43px;
+      background: url(../images/logo-chamada.png) no-repeat center center;
+      margin: 20px 0 14px 19px;
+      text-indent: 0;
+      float: left; }
+    .header .anchors ul {
+      margin: 30px 0px 0px 190px; }
+      .header .anchors ul li {
+        float: left;
+        margin: 0 10px 0 0;
+        font-size: 12px;
+        font-family: "Roboto-Regular", sans-serif;
+        color: #ffffff; }
+    .header .container {
+      background: url(../images/bitmap_tb.png) no-repeat center center;
+      width: 768px;
+      height: 408px;
+      position: relative;
+      margin: 0 auto; }
+      .header .container .content {
+        background: rgba(68, 177, 215, 0.69);
+        width: 100%;
+        height: 396px; }
+      .header .container .content-social .content-text {
+        margin: 70px 0 0 20px !important;
+        font-size: 18px !important;
+        text-align: left;
+        font-weight: normal;
+        margin-bottom: 20px; }
+      .header .container .content-social .content-social-box {
+        text-align: left !important;
+        margin: 20px 0 0 10px; } }
+@media screen and (min-width: 1279px) {
+  .header {
+    width: 100%;
+    position: relative; }
+    .header p {
+      font-size: 10px !important;
+      color: #aaaaaa;
+      text-align: left;
+      margin: 0; }
+    .header .description {
+      padding: 6px 0 0 19px; }
+    .header .content-text-description {
+      font-size: 24px !important;
+      font-weight: normal !important;
+      width: 410px;
+      line-height: 30px;
+      padding: 0 !important;
+      margin: 30px 0 0 20px; }
+    .header .logo {
+      width: 147px;
+      height: 43px;
+      background: url(../images/logo-chamada.png) no-repeat center center;
+      margin: 20px 0 14px 19px;
+      text-indent: 0;
+      float: left; }
+    .header .anchors ul {
+      margin: 30px 0px 0px 190px; }
+      .header .anchors ul li {
+        float: left;
+        margin: 0 10px 0 0;
+        font-size: 12px;
+        font-family: "Roboto-Regular", sans-serif;
+        color: #ffffff; }
+    .header .container {
+      background: url(../images/bitmap_tb.png) no-repeat center center;
+      width: 768px;
+      height: 408px;
+      position: relative;
+      margin: 0 auto; }
+      .header .container .content {
+        background: rgba(68, 177, 215, 0.69);
+        width: 100%;
+        height: 396px; }
+      .header .container .content-social .content-text {
+        margin: 70px 0 0 20px !important;
+        font-size: 18px !important;
+        text-align: left;
+        font-weight: normal;
+        margin-bottom: 20px; }
+      .header .container .content-social .content-social-box {
+        text-align: left !important;
+        margin: 20px 0 0 10px; } }
+
+/*# sourceMappingURL=header.css.map */

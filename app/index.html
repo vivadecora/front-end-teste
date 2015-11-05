@@ -1,0 +1,212 @@
+<!doctype html>
+<html class="no-js" lang="" ng-app="myApp">
+	<head>
+		<meta charset="utf-8">
+		<title>Viva Decora</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" href="styles/main.css">
+		<link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,900italic,700italic,700,900' rel='stylesheet' type='text/css'>
+		
+	</head>
+	<body ng-controller="AppCtrl">		
+		<!-- header mobile -->
+		<div class="header hidden-desktop hidden-tablet">
+			<p>Excepteur sint occaecat cupidatat non proident</p>
+			<h1 class="logo"></h1>
+
+			<div class="container">
+				<div class="content arrow-box">
+					<p class="content-text-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+					<div class="content-social">
+						<p class="content-text">Lorem Ipsum:</p>
+						<div class="content-social-box">
+							<span class="content-btn facebook">
+								<i class="box-facebook"></i>facebook
+							</span>
+							<span class="content-btn email">
+								<i class="letter"></i>email
+							</span>
+						</div>
+					</div>
+				</div>
+			</div> <!-- fim container -->
+		</div> <!-- fim header -->
+
+		<!-- header tablet and desk? -->
+		<div class="header hidden-mobile">
+			<div class="container clearfix">
+				<div class="content arrow-box">
+					<p class="description">Ferramenta gratuita para criar projetos 3D</p>
+					<h1 class="logo"></h1>
+					<nav class="anchors">
+						<ul class="clearfix">
+							<li>Como funciona</li>
+							<li>Para quem gosta da decoração</li>
+							<li>Para profissionais</li>
+							<li>Para lojas e incorporadoras</li>
+						</ul>
+					</nav>
+					<p class="content-text-description">O Styler é uma ferramenta 3D para você criar a casa dos seus sonhos. Grátis, fácil e rápido!</p>
+
+					<div class="content-social clearfix">
+						<p class="content-text">Crie sua conta:</p>
+						<div class="content-social-box">
+							<span class="content-btn facebook">
+								<i class="box-facebook"></i>facebook
+							</span>
+							<span class="content-btn email">
+								<i class="letter"></i>email
+							</span>
+						</div>
+					</div>
+
+				</div>
+			</div> <!-- fim container -->
+		</div> <!-- fim header -->
+
+		<div class="how-it-works content clearfix">
+			<p class="title">Como funciona</p>
+			
+			<div class="how-it-works gallery clearfix">
+				<p class="title top">01 Lorem ipsum dolor sit amet</p>
+				<img src="images/step-01.png" class="image" />
+				<p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			</div>
+
+			<div class="how-it-works gallery clearfix">
+				<p class="title top">02 Lorem ipsum dolor sit amet</p>
+				<img src="images/step-02.png" class="image" />
+				<p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			</div>
+
+			<div class="how-it-works gallery clearfix">
+				<p class="title top">03 Lorem ipsum dolor sit amet</p>
+				<img src="images/step-03.png" class="image" />
+				<p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			</div>
+
+		</div>
+
+		<div class="projects-container">
+			<p class="title">Projetos destacados</p>
+			<ul class="projects clearfix">
+				<li ng-repeat="projeto in projetos" class="box">
+					<img src={{projeto.url}} class="image" />
+				</li>
+			</ul>
+		</div>
+
+		<div class="account hidden-desktop hidden-tablet">
+			
+			<div class="create-account">
+				<img src="images/sonhos-step-4-copy-2.png" class="image" />
+				<div class="container clearfix">
+					<p class="title">Para quem gosta de decoração </p>
+					<p class="description">Com o Styler projete sua casa de forma fácil e rápida em 3D</p>
+					<p class="description"> Inspire-se e compartilhe novas ideias de decoração  </p>
+					<p class="description">Peça dicas e opiniões para amigos e profisionais  </p>
+					<span class="btn-create-account">Criar conta <i class="arrow-right"></i></span>
+				</div>
+			</div>
+
+			<div class="create-account professional">
+				<img src="images/architect-step-03-copy.png" class="image" />
+				<div class="container clearfix">
+					<p class="title">Para os arquitetos e Designers</p>
+					<p class="description">Divulgue seus projetos e ganhe mais clientes  </p>
+					<p class="description"> Faça projetos rápidos e de alta qualidade para seus clientes  </p>
+					<p class="description">Modifique seus projetos online a qualquer hora, em qualquer lugar</p>
+					<span class="btn-create-account">Criar conta profissional<i class="arrow-right"></i></span>
+				</div>
+			</div>
+
+		</div>
+
+		<!-- account tablet e desktop -->
+		<div class="account hidden-mobile">
+			<div class="create-account clearfix">
+				<img src="images/sonhos-step-4-copy-2@2x.png" class="image" />
+				<div class="container clearfix">
+					<p class="title">Para quem gosta de decoração </p>
+					<p class="description">Com o Styler projete sua casa de forma fácil e rápida em 3D</p>
+					<p class="description"> Inspire-se e compartilhe novas ideias de decoração  </p>
+					<p class="description">Peça dicas e opiniões para amigos e profisionais  </p>
+					<span class="btn-create-account">Criar conta <i class="arrow-right"></i></span>
+				</div>
+			</div>
+
+			<div class="create-account clearfix professional">
+				<img src="images/architect-step-03-copy@2x.png" class="image" />
+				<div class="container clearfix">
+					<p class="title">Para os arquitetos e Designers</p>
+					<p class="description">Divulgue seus projetos e ganhe mais clientes  </p>
+					<p class="description"> Faça projetos rápidos e de alta qualidade para seus clientes  </p>
+					<p class="description">Modifique seus projetos online a qualquer hora, em qualquer lugar</p>
+					<span class="btn-create-account">Criar conta profissional<i class="arrow-right"></i></span>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="form clearfix">
+			<p class="informative bigger">Quis nostrud exercitation ullamco laboris</p>
+			<p class="informative">Consectetur adipiscing elit, sed do eiusmod tempor</p>
+
+			<form ng-if="condition">
+				<label class="label">*Nome do contato
+				<br />
+					<input class="size input" type="text" name="name" placeholder="Maria Sousa" ng-model="contact.name" ng-change="validateName()">
+				</label>
+				<br />
+				<label class="label">*Email
+				<br />
+					<input class="size input" type="text" name="email" placeholder="email@emailserver.com" ng-model="contact.email">
+				</label>
+				<br />
+				<label class="label">*Nome da Empresa
+				<br />
+					<input class="size input" type="text" name="company-name" placeholder="Loja de decoração" ng-model="contact.company">
+				</label>
+				<br />
+				<button type="submit" id="btn-submit" class="btn-submit size" ng-click="submitForm()">Enviar</button>
+			</form>
+			<p class="submit-success" ng-if="success">Obrigado! Seus dados foram enviados. Em breve entraremos em contato     .</p>
+		</div>
+
+		<div class="footer clearfix">
+			<div class="footer-wrapper">
+				<ul class="clearfix">
+					<li class="social"></li>
+					<li class="social"></li>
+					<li class="social"></li>
+					<li class="social"></li>
+				</ul>
+
+				<div class="copyright clearfix">
+					<nav>
+						<ul class="clearfix">
+							<li class="item">Revista</li>
+							<li class="item">Sobre nós</li>
+							<li class="item">Entre em contato</li>
+							<li class="item">Politica de privacidade</li>
+							<li class="item">Termos de uso</li>
+							<li class="item">© 2015 Grupo VivaReal - VivaDecora®</li>
+						</ul>
+					</nav>
+				</div>
+
+				<div class="partners clearfix">
+					<img src="images/abd.png" alt="" />
+					<img src="images/adesp.png" alt="" />					
+				</div>
+
+			</div>		
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+  	<script src="scripts/appController.js" type="text/javascript"></script>
+	</body>
+</html>
