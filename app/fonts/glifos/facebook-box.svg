@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="512"
+   height="512"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg2"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="facebook-box.svg">
+  <metadata
+     id="metadata15">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>comments</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1280"
+     inkscape:window-height="751"
+     id="namedview13"
+     showgrid="false"
+     inkscape:zoom="0.71162281"
+     inkscape:cx="-19.722653"
+     inkscape:cy="217.81202"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title4">comments</title>
+  <desc
+     id="desc6">Created with Sketch.</desc>
+  <defs
+     id="defs8" />
+  <g
+     sketch:type="MSPage"
+     id="Page-1-8"
+     style="fill:none;fill-rule:evenodd;stroke:none;stroke-width:1"
+     transform="matrix(25.6,0,0,25.6,-153.6,-153.6)">
+    <g
+       sketch:type="MSArtboardGroup"
+       id="facebook"
+       style="fill:#ffffff">
+      <path
+         sketch:type="MSShapeGroup"
+         id="Shape"
+         d="M 22.666532,6 9.3326591,6 C 7.4919697,6 6,7.4927788 6,9.3334682 L 6,22.666532 C 6,24.50803 7.4919697,26 9.3326591,26 l 6.6669369,0 0,-8.750354 -2.500102,0 0,-2.500101 2.500102,0 0,-1.874671 c 0,-1.725798 1.398923,-3.1247223 3.124721,-3.1247223 l 3.124722,0 0,2.5001013 -3.124722,0 c -0.345483,0 -0.62462,0.279946 -0.62462,0.624621 l 0,1.874671 3.437841,0 -0.624621,2.500101 -2.812411,0 0,8.750354 4.166835,0 C 24.50803,26 26,24.507221 26,22.666532 L 26,9.3334682 C 26,7.4919697 24.50803,6 22.667341,6 l -8.09e-4,0 z"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>

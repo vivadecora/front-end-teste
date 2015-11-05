@@ -1,0 +1,48 @@
+@import variables
+
+$module: 'projects-container'
+
+.#{$module}
+	text-align: center
+	.title
+		color: $gray
+		font-family: $font-light
+		font-size: $large
+		text-align: center
+		margin-top: 38px
+		.box
+			float: left
+			.image
+				margin: 18px 18px 0 17px
+
+
+@media screen and (min-width: $media-query-tablet) and (max-width: $media-query-desktop)
+	.#{$module}
+		width: 735px
+		margin: 0 auto
+		.box
+			float: left
+			.image
+				margin: 18px 18px 0 5px
+				width: 160px
+				height: 160px
+
+@media screen and (min-width: $media-query-desktop) and (max-width: $media-query-desktop-hd)
+	.#{$module}
+		.box
+			float: left
+			.image
+				margin: 18px 18px 0 5px
+				width: 160px
+				height: 160px
+
+@media screen and (min-width: $media-query-desktop-hd)
+	.#{$module}
+		width: 740px
+		margin: 0 auto
+		.box
+			float: left
+			.image
+				margin: 18px 18px 0 5px
+				width: 160px
+				height: 160px

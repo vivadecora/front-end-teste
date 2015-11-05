@@ -1,0 +1,16 @@
+{
+  "name": "front-end-teste",
+  "dependencies": {
+    "bootstrap-sass": "~3.3.5",
+    "modernizr": "~2.8.3",
+    "jquery": "",
+    "angular": ""
+  },
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "authors": [
+    "Stella"
+  ],
+  "license": "MIT"
+}

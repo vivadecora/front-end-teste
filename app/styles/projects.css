@@ -1,0 +1,47 @@
+/* font  */
+/* media queries */
+/* files variables */
+/* font colors */
+/* font sizes */
+.projects-container {
+  text-align: center; }
+  .projects-container .title {
+    color: #666666;
+    font-family: "Roboto-Light", sans-serif;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 38px; }
+    .projects-container .title .box {
+      float: left; }
+      .projects-container .title .box .image {
+        margin: 18px 18px 0 17px; }
+
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+  .projects-container {
+    width: 735px;
+    margin: 0 auto; }
+    .projects-container .box {
+      float: left; }
+      .projects-container .box .image {
+        margin: 18px 18px 0 5px;
+        width: 160px;
+        height: 160px; } }
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .projects-container .box {
+    float: left; }
+    .projects-container .box .image {
+      margin: 18px 18px 0 5px;
+      width: 160px;
+      height: 160px; } }
+@media screen and (min-width: 1279px) {
+  .projects-container {
+    width: 740px;
+    margin: 0 auto; }
+    .projects-container .box {
+      float: left; }
+      .projects-container .box .image {
+        margin: 18px 18px 0 5px;
+        width: 160px;
+        height: 160px; } }
+
+/*# sourceMappingURL=projects.css.map */
