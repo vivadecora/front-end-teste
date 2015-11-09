@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="512"
+   height="512"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg2"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="caret-mini-down.svg">
+  <metadata
+     id="metadata15">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>left</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1280"
+     inkscape:window-height="751"
+     id="namedview13"
+     showgrid="false"
+     inkscape:showpageshadow="false"
+     inkscape:zoom="0.9140625"
+     inkscape:cx="248.76836"
+     inkscape:cy="259.61582"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title4">left</title>
+  <desc
+     id="desc6">Created with Sketch.</desc>
+  <defs
+     id="defs8" />
+  <g
+     id="Page-1"
+     sketch:type="MSPage"
+     transform="matrix(0,-19.555146,19.551911,0,-49.863375,564.10661)"
+     style="fill:none;fill-rule:evenodd;stroke:none;stroke-width:1">
+    <g
+       id="left"
+       sketch:type="MSArtboardGroup"
+       style="fill:#666666">
+      <path
+         d="m 11.322813,16.451929 7.305,7.513714 c 0.4175,0.429428 1.144375,0.428143 1.56,6.43e-4 0.20875,-0.214072 0.32375,-0.498857 0.32375,-0.802286 0,-0.302786 -0.115,-0.588214 -0.32375,-0.802286 l -6.525,-6.712071 6.525,-6.7114287 c 0.20875,-0.2147143 0.32375,-0.4995 0.32375,-0.8029286 0,-0.3034286 -0.115,-0.5882143 -0.32375,-0.8022857 C 19.979688,7.1189286 19.702813,7 19.407813,7 19.113438,7 18.836563,7.1189286 18.628438,7.333 l -7.30625,7.514357 c -0.43,0.442929 -0.429375,1.162286 6.25e-4,1.604572"
+         id="Imported-Layers"
+         sketch:type="MSShapeGroup"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>

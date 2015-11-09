@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="512"
+   height="512"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg2"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="ballons-white-black.svg">
+  <metadata
+     id="metadata15">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>comments</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1280"
+     inkscape:window-height="751"
+     id="namedview13"
+     showgrid="false"
+     inkscape:zoom="0.71162281"
+     inkscape:cx="155.9322"
+     inkscape:cy="217.81202"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title4">comments</title>
+  <desc
+     id="desc6">Created with Sketch.</desc>
+  <defs
+     id="defs8" />
+  <g
+     id="Page-1"
+     sketch:type="MSPage"
+     transform="matrix(0.256,0,0,0.25619369,-153.6,-153.9099)"
+     style="fill:none;fill-rule:evenodd;stroke:none;stroke-width:1">
+    <g
+       id="comments"
+       sketch:type="MSArtboardGroup"
+       style="fill:#666666">
+      <path
+         d="m 2488.892,2275.6618 c 0,78.9605 45.1654,147.3152 111.108,180.7984 l 0,27.6529 c -18.4439,2.4987 -37.2767,3.8869 -56.4429,3.8869 -118.0523,0 -224.5493,-49.5308 -299.8805,-128.8799 -45.4988,12.105 -93.7752,18.6573 -143.7183,18.6573 -276.159,0 -499.9861,-198.9005 -499.9861,-444.2221 0,-245.3217 223.8271,-444.2221 499.9861,-444.2221 276.159,0 499.9862,198.9004 499.9862,444.2221 0,96.063 -34.3324,184.963 -92.6086,257.6488 -11.833,25.7094 -18.4995,54.3617 -18.4995,84.5133 l 0.056,-0.056 z M 1000.5444,1095.7524 c -114.94122,93.3422 -178.2728,213.3932 -178.2728,338.053 0,69.9095 19.44391,137.7644 57.72062,201.5658 39.4989,65.8004 98.9417,125.937 171.82858,173.9685 52.7207,34.7048 88.1642,90.1215 97.4973,152.5347 3.111,20.823 5.0554,41.8124 5.8331,62.6909 12.9441,-10.7724 25.6105,-22.2666 37.999,-34.6493 41.9433,-41.9235 98.5528,-65.0786 157.1067,-65.0786 9.3331,0 18.6662,0.6108 28.0548,1.7769 36.3879,4.6088 73.498,6.941 110.3858,6.9965 l 0,222.1111 c -47.1098,0 -93.3307,-2.9985 -138.4406,-8.7734 -190.9391,190.8489 -418.82166,225.054 -639.14888,230.107 l 0,-46.6988 c 118.9967,-58.2487 222.21605,-164.4177 222.21605,-285.6904 0,-16.9359 -1.33329,-33.5387 -3.77767,-49.8084 C 728.49643,1862.5353 600,1660.3587 600,1433.8609 600,1035.1716 997.93339,712 1488.8642,712 c 483.431,0 876.6979,313.3987 888.5864,703.6478 -71.3313,-31.7619 -149.0514,-51.03 -229.6047,-56.5272 -19.9994,-97.2847 -78.8312,-188.85 -170.5508,-263.3127 -61.3316,-49.8084 -133.5519,-89.1776 -214.6052,-117.05252 -86.2754,-29.65183 -178.3839,-44.64432 -273.7701,-44.64432 -95.3863,0 -187.4948,15.04802 -273.7702,44.64432 -81.1089,27.87492 -153.3291,67.24412 -214.6052,117.05252 l 0,-0.055 z"
+         id="Shape-Copy"
+         sketch:type="MSShapeGroup"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>

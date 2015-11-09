@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="512"
+   height="512"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg3336"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="home.svg">
+  <metadata
+     id="metadata3349">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>project</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1280"
+     inkscape:window-height="751"
+     id="namedview3347"
+     showgrid="false"
+     inkscape:zoom="0.90616613"
+     inkscape:cx="260.65454"
+     inkscape:cy="229.00364"
+     inkscape:window-x="0"
+     inkscape:window-y="900"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3336" />
+  <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title3338">project</title>
+  <desc
+     id="desc3340">Created with Sketch.</desc>
+  <defs
+     id="defs3342" />
+  <path
+     style="fill:#666666;fill-rule:evenodd;stroke:none;stroke-width:1"
+     d="m 404.81132,465.5 -104.45948,0 c -10.88161,0 -19.71304,-8.5513 -19.71304,-19.13046 l 0,-98.48358 -49.28264,0 0,98.48358 c 0,10.57916 -8.83146,19.13046 -19.71307,19.13046 l -104.45948,0 c -10.881601,0 -19.713054,-8.5513 -19.713054,-19.13046 l 0,-132.30622 -67.753772,0 c -7.964074,0 -15.1593406,-4.6487 -18.214864,-11.8035 -3.0555235,-7.15478 -1.36019328,-15.36176 4.2777316,-20.85218 L 242.06034,52.110001 c 7.70781,-7.480001 20.18616,-7.480001 27.87425,0 L 506.23501,281.40764 c 5.63792,5.49042 7.31354,13.6974 4.258,20.85218 -3.03579,7.1548 -10.23107,11.8035 -18.21485,11.8035 l -67.75377,0 0,132.30622 c 0,10.57916 -8.83146,19.13046 -19.71307,19.13046 l 0,0 z m -84.74641,-38.2609 65.03337,0 0,-132.30623 c 0,-10.56002 8.81173,-19.13045 19.71304,-19.13045 l 39.87953,0 L 255.99747,92.685701 67.3041,275.80242 l 39.87951,0 c 10.90132,0 19.71307,8.57043 19.71307,19.13045 l 0,132.30623 65.03336,0 0,-98.48358 c 0,-10.56002 8.83144,-19.13048 19.71305,-19.13048 l 88.70875,0 c 10.88161,0 19.71307,8.57046 19.71307,19.13048 l 0,98.48358 0,0 z"
+     id="Fill-2"
+     sketch:type="MSShapeGroup"
+     inkscape:connector-curvature="0" />
+</svg>

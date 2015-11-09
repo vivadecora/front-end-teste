@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="512"
+   height="512"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg3351"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="three-lines-horizontal.svg">
+  <metadata
+     id="metadata3364">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>arrow-top</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1280"
+     inkscape:window-height="751"
+     id="namedview3362"
+     showgrid="false"
+     inkscape:zoom="0.32593203"
+     inkscape:cx="-154.62949"
+     inkscape:cy="441.04776"
+     inkscape:window-x="-1"
+     inkscape:window-y="949"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg3351" />
+  <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title3353">arrow-top</title>
+  <desc
+     id="desc3355">Created with Sketch.</desc>
+  <defs
+     id="defs3357" />
+  <path
+     d="M 49.548828 25 C 22.297215 25 -4.7369516e-15 47.275 0 74.5 C 0 101.725 22.297215 124 49.548828 124 L 462.45117 124 C 489.70278 124 512 101.725 512 74.5 C 512 47.275 489.70278 25 462.45117 25 L 49.548828 25 z M 49.548828 206.5 C 22.297215 206.5 -9.4739031e-15 228.775 0 256 C 0 283.225 22.297215 305.5 49.548828 305.5 L 462.45117 305.5 C 489.70278 305.5 512 283.225 512 256 C 512 228.775 489.70278 206.5 462.45117 206.5 L 49.548828 206.5 z M 49.548828 388 C 22.297215 388 -4.7369516e-15 410.275 0 437.5 C 0 464.725 22.297215 487 49.548828 487 L 462.45117 487 C 489.70278 487 512 464.725 512 437.5 C 512 410.275 489.70278 388 462.45117 388 L 49.548828 388 z "
+     id="path3484" />
+</svg>

@@ -1,0 +1,21 @@
+{
+  "name": "ng-form-validation",
+  "version": "0.0.1",
+  "homepage": "https://github.com/ericdouglas/ng-form-validation",
+  "authors": [
+    "ericdouglas <eric.douglas.mail@gmail.com>"
+  ],
+  "description": "How to validate a form with AngularJS",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angularjs": "~1.3.10"
+  }
+}
