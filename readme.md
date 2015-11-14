@@ -4,8 +4,6 @@
 >
 > Esse teste é público. Todos que os interessados que fizerem pull request receberão um feedback da equipe Viva Decora.
 
-> ![Estamos contratando front end](https://img.shields.io/badge/Atenção:-Estamos%20contratando-green.svg?style=flat-square)
-
 ## Instruções:
 
 1. Faça um fork deste repositório;
